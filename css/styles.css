@@ -1,0 +1,645 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    background-color: #2A274B;
+    color: white;
+    margin: 0;
+
+}
+
+header div {
+    size: 5.75rem 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div h2 {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .625rem;
+}
+
+header div img {
+    display: flex;
+    width: 59px;
+    height: 59px;
+    margin-right: 1rem;
+    margin-top: .625rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    size: 6.25rem 6.25rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}   
+
+header nav ul li {
+    margin: 1.875rem;
+    padding:  10px 25px;
+    border-radius: .3125rem;
+    border-color: #7271713a;
+    border-style: ridge;
+    border-radius: 1.5625rem;
+    background-color:#323050;
+    
+    
+}
+
+header nav ul li a{
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.botonInicio {
+    border-color: #ebbf6e;
+    border-style: ridge;
+    
+}
+
+.botonCompos {
+    border-color: #ebbf6e;
+    border-style: ridge;
+    
+}
+
+.botonCampeones {
+    border-color: #ebbf6e;
+    border-style: ridge;
+}
+
+.botonObjetos {
+    border-color: #ebbf6e;
+    border-style: ridge;
+}
+
+.botonNotas {
+    border-color: #ebbf6e;
+    border-style: ridge;
+}
+
+header nav ul li a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: #323050;
+    color: #070707;
+    padding: 0;
+    margin: 0;
+}
+
+
+footer h6{
+    text-align: left;
+    margin-top: 150px;
+
+}
+
+footer div{
+    height: 50%;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 25px;
+    color: #9A9A9A;
+
+
+}
+
+footer p{
+    margin-left: 750px;
+    margin-top: 120px;
+    font-family: "Zain", sans-serif;
+    font-size: large;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+footer div a{
+    display: flex;
+    gap: 1.25rem;
+    width: 45px;
+    height: 45px;
+    margin-right: 1rem;
+    margin-top: .625rem;
+}
+
+main {
+    background-color: #323050;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
+.seccionTituloBienvenida{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url("../assets/img/Fabulas-de-tinta-vectorizado.png");
+    background-position:top;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    margin: 0;
+    padding-bottom: 0px;
+
+}
+
+.seccionTituloBienvenida h1 {
+    size:initial;
+    text-align: center;
+    color: #D4D4D4;
+    text-shadow: #383737;
+    padding-top: 1.875rem;
+    font-size: 70px;
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.seccionNotaParche{
+    height: 23rem;
+    width: 75%;
+    margin-left: 250px;
+    background-color: #403E5E;
+    background-size: 50% 300px;
+    padding-top: .3125rem;
+    align-items: center center;
+    border-color: #7271713a;
+    border-style:ridge;
+    border-radius: 1.5625rem;
+    border-width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.seccionNotaParche div{
+    width: 50%;
+    height: 30%;
+    margin-left: 25%;
+    
+}
+
+
+
+.seccionNotaParche div h2 {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    margin-bottom: 40px;
+    background-color: #2A274B;
+    background-size:auto;
+    border-color: #2A274B;
+    border-radius: 1.5625rem;
+}
+
+
+
+.seccionNotaParche p {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.seccionNotaParche ul li {
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .0rem;
+}
+
+.seccionNotaParche div a {
+    color: white;
+    text-decoration: none;
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .0rem;
+}
+
+
+.titanessegadores{
+    font-family: "Zain", sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-left: 80px;
+    gap: 50px;
+
+}
+
+.titanessegadores div h4{
+    padding-top: 50px;
+}
+
+.titanessegadores div h3{
+    padding-top: 45px;
+}
+
+
+.titanessegadores img {
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    
+}
+
+.titanessegadores div ul{
+    list-style: none;
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    gap: 40px;
+    border-color: #2A274B;
+    border-style: solid;
+    border-radius: 100rem;
+    background-color:#2A274B;
+    border-width: 10px;
+
+}
+
+.titanessegadores div ul li img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100rem;
+}
+
+
+
+.maton-tirotruco{
+    font-family: "Zain", sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+.maton-tirotruco div h4{
+    padding-top: 50px;
+}
+
+.maton-tirotruco div h3{
+    padding-top: 45px;
+}
+
+.maton-tirotruco  img {
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.maton-tirotruco div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    gap: 40px;
+    border-color: #2A274B;
+    border-style: solid;
+    border-radius: 100rem;
+    background-color:#2A274B;
+    border-width: 10px;
+}
+
+.maton-tirotruco div ul li img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100rem;
+}
+
+.tinta-sombria{
+    font-family: "Zain", sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+.tinta-sombria  div h4{
+    padding-top: 50px;
+}
+
+.tinta-sombria  div h3{
+    padding-top: 45px;
+}
+
+.tinta-sombria  img {
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.tinta-sombria div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    gap: 40px;
+    border-color: #2A274B;
+    border-style: solid;
+    border-radius: 100rem;
+    background-color:#2A274B;
+    border-width: 10px;
+}
+
+.tinta-sombria div ul li img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100rem;
+}
+
+
+.roll-eruditos{
+    font-family: "Zain", sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+.roll-eruditos div h4{
+    padding-top: 50px;
+}
+
+.roll-eruditos div h3{
+    padding-top: 45px;
+}
+
+.roll-eruditos img {
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.roll-eruditos div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    gap: 40px;
+    border-color: #2A274B;
+    border-style: solid;
+    border-radius: 100rem;
+    background-color:#2A274B;
+    border-width: 10px;
+}
+
+.roll-eruditos div ul li img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100rem;
+}
+
+.dumplings-mortales{
+    font-family: "Zain", sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    font-style: normal;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+.dumplings-mortales div h4{
+    padding-top: 50px;
+}
+
+.dumplings-mortales div h3{
+    padding-top: 45px;
+}
+
+.dumplings-mortales img{
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.dumplings-mortales div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    gap: 40px;
+    border-color: #2A274B;
+    border-style: solid;
+    border-radius: 100rem;
+    background-color:#2A274B;
+    border-width: 10px;
+}
+
+.dumplings-mortales div ul li img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100rem;
+}
+
+.tabla ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 500px;
+    list-style: none;
+    gap: 270px;
+    padding-top: 50px;
+}
+
+.tabla ul li div h3{
+    font-family: "Zain", sans-serif;
+    font-weight: 20px;
+    font-size: 30px;
+}
+
+.aatrox ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style: none;
+    gap: 180px;
+    padding-left: 200px;
+}
+
+.aatrox ul li div p{
+    font-family: "Zain", sans-serif;
+    font-weight: 5px;
+    font-size: 30px;
+    padding-top: 1.875rem;
+}
+
+
+.rasgosecunAtrox{
+    padding-left: 50px;
+}
+
+.posiAtrox{
+    padding-left: 200px;
+}
+
+
+.ahri ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style: none;
+    gap: 200px;
+    padding-left: 200px;
+}
+
+.ahri ul li div p{
+    font-family: "Zain", sans-serif;
+    font-weight: 5px;
+    font-size: 30px;
+    padding-top: 1.875rem;
+}
+
+.sinergiaAhri{
+    padding-left: 50px;
+}
+
+.rasgosecunAhri{
+    padding-left: 100px;
+}
+
+.posiAhri{
+    padding-left: 180px;
+}
+
+.alune ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style: none;
+    gap: 190px;
+    padding-left: 200px;
+}
+
+.alune ul li div p{
+    font-family: "Zain", sans-serif;
+    font-weight: 5px;
+    font-size: 30px;
+    padding-top: 1.875rem;
+}
+
+.sinergiaAlune{
+    padding-left: 80px;
+}
+
+.rasgosecunAlune{
+    padding-left: 140px;
+}
+
+.posiAlune{
+    padding-left: 180px;
+}
+
+.amumu ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style: none;
+    gap: 190px;
+    padding-left: 200px;
+}
+
+
+.amumu ul li div p{
+    font-family: "Zain", sans-serif;
+    font-weight: 5px;
+    font-size: 30px;
+    padding-top: 1.875rem;
+}
+
+.sinergiaAmumu{
+    padding-left: 50px;
+}
+
+.rasgosecunAmumu{
+    padding-left: 135px;
+}
+
+.posiAmumu{
+    padding-left: 190px;
+}
+
+
+
+
