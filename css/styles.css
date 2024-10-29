@@ -73,6 +73,10 @@ header nav ul li a{
     font-size: 20px;
 }
 
+header nav ul li a:hover{
+    color: #ebbf6e;
+}
+
 .botonInicio {
     border-color: #ebbf6e;
     border-style: ridge;
@@ -246,9 +250,11 @@ main {
     font-size: 1.25rem;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    padding-top: 35px;
+    
 }
 
 .seccionNotaParche ul li {
@@ -830,4 +836,251 @@ main {
     text-align: center;
 }
 
+
+
+@media (max-width:1440px){
+    .seccionNotaParche {
+        margin-left: 170px;
+    }
+}
+
+@media (max-width:1272px){
+    footer h6{
+        display: flex;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    footer p{
+        margin-left: 500px;
+        margin-top: 125px;
+        font-family: "Zain", sans-serif;
+        font-size: large;
+        font-weight: 500;
+        font-style: normal;
+    
+    }
+
+    .seccionNotaParche div h2{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    .seccionNotaParche p{
+
+        padding: 5px;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width:1024px){
+    .seccionNotaParche {
+        margin-left: 140px;
+    }
+}
+
+@media (max-width:928px){
+    footer p{
+        margin-top: 120px;
+        margin-left: 250px;
+    }
+    footer h6{
+        margin-top: 130px;
+    }
+}
+
+
+@media (max-width:902px){
+    .seccionNotaParche div h2{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:809px){
+    .seccionNotaParche p{
+        font-size: 18px;
+    }
+
+    .seccionNotaParche ul li{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:768px){
+    header nav ul li {
+        margin: 10px;
+    }
+
+    .seccionNotaParche{
+        padding-bottom: 100px;
+        margin-left: 100px;
+    }
+
+    .seccionNotaParche div h2{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .seccionNotaParche p{
+        padding-top: 30px;
+    }
+
+
+}
+
+@media (max-width:681px){
+
+
+    footer div a{
+        display: flex;
+        gap: 1.25rem;
+        width: 20px;
+        height: 20px;
+        margin-right: 1rem;
+        margin-top: 50px;
+    }
+
+    footer p{
+        display: flex;
+        font-size: 8px;
+        margin-top: 100px;
+        margin-left: 150px;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer h6{
+        font-size: 8px;
+    }
+
+    .seccionNotaParche{
+        padding-bottom: 0px;
+        margin-left: 70px;
+        
+    }
+
+    .seccionNotaParche div h2{
+        margin-top: 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .seccionNotaParche ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .seccionNotaParche ul li{
+        font-size: 15px;
+    }
+
+    .seccionNotaParche p{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .seccionNotaParche div a{
+        font-size: 15px;
+    }
+
+    .seccionTituloBienvenida{
+        width: 100%;
+        height: 500px;
+    
+    }
+    
+    .seccionTituloBienvenida h1 {
+        padding-top: 1.875rem;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    header nav ul li a{
+        font-size: 13px;
+
+    }
+
+    header nav ul{
+        flex-direction: row;
+        
+    }
+}
+
+@media (max-width:396px){
+    footer p{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:375px){
+
+    footer h6{
+        display: flex;
+        font-size: 10px;
+        margin-top: 150px;
+        margin-left: 00px;
+    }
+
+    footer p{
+        margin-left: 00px;
+        margin-top: 125px;
+        font-family: "Zain", sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        font-style: normal;
+    
+    }
+
+    header div h2{
+        font-size: 30px;
+    }
+
+    header nav ul li a{
+        font-size: 10px;
+    }
+
+    .seccionTituloBienvenida{
+        height: 250px;
+    }
+    
+    .seccionTituloBienvenida h1{
+        font-size: 25px;
+    }
+
+    
+    .seccionNotaParche{
+        margin-left: 40px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .seccionNotaParche div h2{
+        margin-top: 5px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .seccionNotaParche ul li{
+        font-size: 12px;
+    }
+
+    .seccionNotaParche p{
+        padding-top: 0px;
+        font-size: 12px;
+    }
+
+    .seccionNotaParche div a{
+        font-size: 12px;
+    }
+
+
+
+}
 
