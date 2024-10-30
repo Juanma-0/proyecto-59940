@@ -288,6 +288,7 @@ main {
     font-family: "Zain", sans-serif;
     font-weight: 10;
     font-size: 30px;
+    text-align: center;
     font-style: normal;
     display: flex;
     padding-top: 100px;
@@ -306,7 +307,7 @@ main {
 }
 
 
-.titanessegadores img {
+.imagen-s {
     height: 100px;
     width: 100px;
     padding-top: 20px;
@@ -339,6 +340,7 @@ main {
     font-family: "Zain", sans-serif;
     font-weight: 10;
     font-size: 30px;
+    text-align: center;
     font-style: normal;
     display: flex;
     padding-top: 100px;
@@ -355,7 +357,7 @@ main {
     padding-top: 45px;
 }
 
-.maton-tirotruco  img {
+.imagen-s{
     height: 100px;
     width: 100px;
     padding-top: 20px;
@@ -384,6 +386,7 @@ main {
     font-family: "Zain", sans-serif;
     font-weight: 10;
     font-size: 30px;
+    text-align: center;
     font-style: normal;
     display: flex;
     padding-top: 100px;
@@ -400,7 +403,7 @@ main {
     padding-top: 45px;
 }
 
-.tinta-sombria  img {
+.imagen-s{
     height: 100px;
     width: 100px;
     padding-top: 20px;
@@ -430,6 +433,7 @@ main {
     font-family: "Zain", sans-serif;
     font-weight: 10;
     font-size: 30px;
+    text-align: center;
     font-style: normal;
     display: flex;
     padding-top: 100px;
@@ -446,7 +450,7 @@ main {
     padding-top: 45px;
 }
 
-.roll-eruditos img {
+.imagen-s{
     height: 100px;
     width: 100px;
     padding-top: 20px;
@@ -475,6 +479,7 @@ main {
     font-family: "Zain", sans-serif;
     font-weight: 10;
     font-size: 30px;
+    text-align: center;
     font-style: normal;
     display: flex;
     padding-top: 100px;
@@ -491,7 +496,7 @@ main {
     padding-top: 45px;
 }
 
-.dumplings-mortales img{
+.imagen-s{
     height: 100px;
     width: 100px;
     padding-top: 20px;
@@ -842,7 +847,144 @@ main {
     .seccionNotaParche {
         margin-left: 170px;
     }
+
+    .titanessegadores{
+        font-size: 25px;
+        gap: 25px;
+    }
+    .imagen-s{
+        height: 80px;
+        width: 80px;
+        
+    }
+
+    .titanessegadores div h4{
+        padding-top: 35px;
+    }
+    
+    .titanessegadores div h3{
+        padding-top: 30px;
+    }
+
+    .titanessegadores div ul{
+        gap: 30px;
+        height: 100px;
+    }
+    .titanessegadores div ul li img{
+        height: 80px;
+        width: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maton-tirotruco{
+    font-size: 25px;
+    gap: 25px;
+    }
+
+    .maton-tirotruco div h4{
+        padding-top: 35px;
+    }
+    
+    .maton-tirotruco div h3{
+        padding-top: 30px;
+    }
+
+    .maton-tirotruco div ul{
+        gap: 30px;
+        height: 100px;
+    }
+
+    .maton-tirotruco div ul li img{
+        height: 75px;
+        width: 75px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tinta-sombria{
+        font-size: 25px;
+        gap: 25px;
+    }
+
+    .tinta-sombria  div h4{
+        padding-top: 35px;
+    }
+    
+    .tinta-sombria  div h3{
+        padding-top: 30px;
+    }
+
+    .tinta-sombria div ul{
+        gap: 30px;
+        height: 100px;
+    }
+
+    .tinta-sombria div ul li img{
+        height: 75px;
+        width: 75px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roll-eruditos{
+        font-size: 25px;
+        gap: 25px;
+    }
+
+    .roll-eruditos div h4{
+        padding-top: 35px;
+    }
+    
+    .roll-eruditos div h3{
+        padding-top: 30px;
+    }
+
+    .roll-eruditos div ul{
+        gap: 30px;
+        height: 100px;
+    }
+
+    .roll-eruditos div ul li img{
+        height: 75px;
+        width: 75px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dumplings-mortales{
+        font-size: 25px;
+        gap: 25px;
+    }
+
+    .dumplings-mortales div h4{
+        padding-top: 35px;
+    }
+    
+    .dumplings-mortales div h3{
+        padding-top: 30px;
+    }
+
+    .dumplings-mortales div ul{
+        gap: 30px;
+        height: 100px;
+    }
+
+    .dumplings-mortales div ul li img{
+        height: 75px;
+        width: 75px;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
+@media (max-width:1302px){
+    .maton-tirotruco div ul li img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
 
 @media (max-width:1272px){
     footer h6{
@@ -876,9 +1018,261 @@ main {
 }
 
 
+@media (max-width:1257px){
+    .titanessegadores{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+    }
+    .imagen-s{
+        height: 70px;
+        width: 50px;
+        
+    }
+
+
+    .titanessegadores div ul{
+        gap: 20px;
+        height: 100px;
+    }
+    .titanessegadores div ul li img{
+        height: 70px;
+        width: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maton-tirotruco{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+    }
+
+    .maton-tirotruco div h4{
+        padding-top: 20px;
+    }
+    
+    .maton-tirotruco div h3{
+        padding-top: 15px;
+    }
+
+    .maton-tirotruco div ul{
+        gap: 20px;
+        height: 85px;
+    }
+
+    .maton-tirotruco div ul li img{
+        height: 60px;
+        width: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tinta-sombria{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+    }
+
+    .tinta-sombria  div h4{
+        padding-top: 33px;
+    }
+    
+
+
+    .tinta-sombria div ul{
+        gap: 20px;
+        height: 85px;
+    }
+
+    .tinta-sombria div ul li img{
+        height: 70px;
+        width: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roll-eruditos{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+    }
+
+    .roll-eruditos div h4{
+        padding-top: 20px;
+    }
+    
+    .roll-eruditos div h3{
+        padding-top: 15px;
+    }
+
+    .roll-eruditos div ul{
+        gap: 20px;
+        height: 85px;
+    }
+
+    .roll-eruditos div ul li img{
+        height: 65px;
+        width: 65px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dumplings-mortales{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+    }
+
+    .dumplings-mortales div h4{
+        padding-top: 20px;
+    }
+    
+    .dumplings-mortales div h3{
+        padding-top: 15px;
+    }
+
+    .dumplings-mortales div ul{
+        gap: 20px;
+        height: 85px;
+    }
+
+    .dumplings-mortales div ul li img{
+        height: 70px;
+        width: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 @media (max-width:1024px){
     .seccionNotaParche {
         margin-left: 140px;
+    }
+}
+
+@media (max-width:958px){
+    .titanessegadores{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+    .imagen-s{
+        height: 60px;
+        width: 40px;
+        
+    }
+
+    .titanessegadores div h4{
+        padding-top: 15px;
+    }
+    
+    .titanessegadores div h3{
+        padding-top: 10px;
+    }
+
+    .titanessegadores div ul{
+        gap: 15px;
+        height: 80px;
+    }
+    .titanessegadores div ul li img{
+        height: 55px;
+        width: 55px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maton-tirotruco{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+
+    .maton-tirotruco div h4{
+        padding-top: 18px;
+    }
+    
+    .maton-tirotruco div h3{
+        padding-top: 13px;
+    }
+
+    .maton-tirotruco div ul{
+        gap: 15px;
+        height: 70px;
+    }
+
+    .maton-tirotruco div ul li img{
+        height: 45px;
+        width: 45px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tinta-sombria{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+
+    .tinta-sombria  div h4{
+        padding-top: 30px;
+    }
+    
+    .tinta-sombria  div h3{
+        padding-top: 27px;
+    }
+
+    .tinta-sombria div ul{
+        gap: 15px;
+        height: 70px;
+    }
+
+    .tinta-sombria div ul li img{
+        height: 48px;
+        width: 48px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roll-eruditos{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+
+    .roll-eruditos div ul{
+        gap: 15px;
+        height: 70px;
+    }
+
+    .roll-eruditos div ul li img{
+        height: 48px;
+        width: 48px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dumplings-mortales{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+
+    .dumplings-mortales div ul{
+        gap: 15px;
+        height: 70px;
+    }
+
+    .dumplings-mortales div ul li img{
+        height: 50px;
+        width: 50px;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -930,6 +1324,149 @@ main {
     }
 
 
+}
+
+@media (max-width:729px){
+    .titanessegadores{
+        font-size: 10px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-top: 50px;
+    }
+    .imagen-s{
+        height: 40px;
+        width: 30px;
+        padding-top: 13px;
+    }
+
+    .titanessegadores div h4{
+        padding-top: 15px;
+    }
+    
+    .titanessegadores div h3{
+        padding-top: 10px;
+    }
+
+    .titanessegadores div ul{
+        gap: 5px;
+        height: 50px;
+    }
+    .titanessegadores div ul li img{
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maton-tirotruco{
+        font-size: 10px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-top: 50px;
+    }
+
+    .maton-tirotruco div h4{
+        padding-top: 18px;
+    }
+    
+    .maton-tirotruco div h3{
+        padding-top: 15px;
+    }
+
+    .maton-tirotruco div ul{
+        gap: 5px;
+        height: 50px;
+    }
+
+    .maton-tirotruco div ul li img{
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tinta-sombria{
+        font-size: 10px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-top: 50px;
+    }
+
+    .tinta-sombria  div h4{
+        padding-top: 23px;
+    }
+    
+    .tinta-sombria  div h3{
+        padding-top: 15px;
+    }
+
+    .tinta-sombria div ul{
+        gap: 5px;
+        height: 50px;
+    }
+
+    .tinta-sombria div ul li img{
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roll-eruditos{
+        font-size: 10px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-top: 50px;
+    }
+
+    
+    .roll-eruditos div h4{
+        padding-top: 15px;
+    }
+    
+    .roll-eruditos div h3{
+        padding-top: 10px;
+    }
+
+    .roll-eruditos div ul{
+        gap: 5px;
+        height: 50px;
+    }
+
+    .roll-eruditos div ul li img{
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dumplings-mortales{
+        font-size: 10px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-top: 50px;
+    }
+
+    
+    .dumplings-mortales div h4{
+        padding-top: 15px;
+    }
+    
+    .dumplings-mortales div h3{
+        padding-top: 10px;
+    }
+
+    .dumplings-mortales div ul{
+        gap: 5px;
+        height: 50px;
+    }
+
+    .dumplings-mortales div ul li img{
+        height: 30px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width:681px){
@@ -1018,6 +1555,153 @@ main {
         margin-left: 40px;
     }
 }
+
+
+@media (max-width:403px){
+    .titanessegadores{
+        font-size: 7px;
+        gap: 5px;
+        padding-left: 1px;
+        padding-top: 30px;
+    }
+    .imagen-s{
+        height: 30px;
+        width: 20px;
+        padding-top: 15px;
+    }
+
+    .titanessegadores div h4{
+        padding-top: 18px;
+    }
+    
+    .titanessegadores div h3{
+        padding-top: 17px;
+    }
+
+    .titanessegadores div ul{
+        gap: 5px;
+        height: 40px;
+    }
+    .titanessegadores div ul li img{
+        height: 20px;
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .maton-tirotruco{
+        font-size: 7px;
+        gap: 5px;
+        padding-left: 1px;
+        padding-top: 30px;
+    }
+
+    .maton-tirotruco div h4{
+        padding-top: 14px;
+    }
+    
+    .maton-tirotruco div h3{
+        padding-top: 13px;
+    }
+
+    .maton-tirotruco div ul{
+        gap: 5px;
+        height: 40px;
+    }
+
+    .maton-tirotruco div ul li img{
+        height: 20px;
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tinta-sombria{
+        font-size: 7px;
+        gap: 5px;
+        padding-left: 1px;
+        padding-top: 30px;
+    }
+
+    .tinta-sombria  div h4{
+        padding-top: 19px;
+    }
+    
+    .tinta-sombria  div h3{
+        padding-top: 18px;
+    }
+
+    .tinta-sombria div ul{
+        gap: 5px;
+        height: 40px;
+    }
+
+    .tinta-sombria div ul li img{
+        height: 20px;
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .roll-eruditos{
+        font-size: 7px;
+        gap: 5px;
+        padding-left: 1px;
+        padding-top: 30px;
+    }
+
+    
+    .roll-eruditos div h4{
+        padding-top: 15px;
+    }
+    
+    .roll-eruditos div h3{
+        padding-top: 14px;
+    }
+
+    .roll-eruditos div ul{
+        gap: 5px;
+        height: 40px;
+    }
+
+    .roll-eruditos div ul li img{
+        height: 20px;
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dumplings-mortales{
+        font-size: 7px;
+        gap: 5px;
+        padding-left: 1px;
+        padding-top: 30px;
+        padding-bottom: 12px;
+    }
+
+    
+    .dumplings-mortales div h4{
+        padding-top: 15px;
+    }
+    
+    .dumplings-mortales div h3{
+        padding-top: 13px;
+    }
+
+    .dumplings-mortales div ul{
+        gap: 5px;
+        height: 40px;
+    }
+
+    .dumplings-mortales div ul li img{
+        height: 20px;
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
 
 @media (max-width:375px){
 
