@@ -976,6 +976,88 @@ main {
         align-items: center;
         justify-content: center;
     }
+
+    .tabla ul{
+        gap: 150px;
+        padding-left: 350px;
+    }
+
+    .aatrox ul{
+        gap: 100px;
+        padding-left: 150px;
+    }
+
+    .aatrox ul li div p{
+        font-size: 25px;
+    }
+
+    .posiAtrox{
+        padding-left: 160px;
+    }
+
+    .imgAtrox img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .ahri ul{
+        gap: 110px;
+        padding-left: 150px;
+    }
+
+    .ahri ul li div p{
+        font-size: 25px;
+    }
+
+    .posiAhri{
+        padding-left: 155px;
+    }
+
+    .imgAhri img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .alune ul{
+        gap: 100px;
+        padding-left: 150px;
+    }
+
+    .rasgosecunAlune{
+        padding-left: 130px;
+    }
+
+    .posiAlune{
+        padding-left: 160px;
+    }
+
+    .alune ul li div p{
+        font-size: 25px;
+    }
+
+    .imgAlune img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .amumu ul{
+        gap: 100px;
+        padding-left: 150px;
+    }
+
+    .amumu ul li div p{
+        font-size: 25px;
+    }
+
+    .imgAmumu img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .posiAmumu{
+        padding-left: 160px;
+    }
+
 }
 
 @media (max-width:1302px){
@@ -985,6 +1067,107 @@ main {
     }
 }
 
+
+@media (max-width:1297px){
+    .tabla ul{
+        gap: 105px;
+        padding-left: 225px;
+    }
+
+    .tabla ul li div h3{
+        font-size: 25px;
+    }
+
+    .aatrox ul{
+        gap: 70px;
+        padding-left: 80px;
+    }
+
+    .aatrox ul li div p{
+        font-size: 22px;
+    }
+
+    .imgAtrox img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .posiAtrox{
+        padding-left: 120px;
+    }
+
+    .rasgosecunAtrox{
+        padding-left: 20px;
+    }
+
+    .ahri ul{
+        gap: 75px;
+        padding-left: 80px;
+    }
+
+    .ahri ul li div p{
+        font-size: 22px;
+    }
+
+    .imgAhri img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .rasgosecunAhri{
+        padding-left: 70px;
+    }
+
+    .posiAhri{
+        padding-left: 120px;
+    }
+
+    .alune ul{
+        gap: 70px;
+        padding-left: 80px;
+    }
+
+    .alune ul li div p{
+        font-size: 22px;
+    }
+
+    .imgAlune img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .rasgosecunAlune{
+        padding-left: 85px;
+    }
+
+    .posiAlune{
+        padding-left: 115px;
+    }
+
+    .amumu ul{
+        gap: 70px;
+        padding-left: 80px;
+    }
+
+    .amumu ul li div p{
+        font-size: 22px;
+    }
+
+    .imgAmumu img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .rasgosecunAmumu{
+        padding-left: 95px;
+    }
+
+    .posiAmumu{
+        padding-left: 110px;
+    }
+
+
+}
 
 @media (max-width:1272px){
     footer h6{
@@ -1150,6 +1333,90 @@ main {
         margin-left: 140px;
     }
 }
+
+@media (max-width:960px){
+    .tabla ul{
+        gap: 70px;
+        padding-left: 140px;
+    }
+
+    .tabla ul li div h3{
+        font-size: 23px;
+    }
+
+    .aatrox ul{
+        gap: 50px;
+        padding-left: 20px;
+    }
+
+    .aatrox ul li div p{
+        font-size: 18px;
+    }
+
+    .imgAtrox img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .ahri ul{
+        gap: 50px;
+        padding-left: 20px;
+    }
+
+    .ahri ul li div p{
+        font-size: 18px;
+    }
+
+    .imgAhri img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .rasgosecunAhri{
+        padding-left: 65px;
+    }
+
+    .alune ul{
+        gap: 50px;
+        padding-left: 20px;
+    }
+
+    .alune ul li div p{
+        font-size: 18px;
+    }
+
+    .imgAlune img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .rasgosecunAlune{
+        padding-left: 60px;
+    }
+
+    .posiAlune{
+        padding-left: 110px;
+    }
+
+    .amumu ul{
+        gap: 50px;
+        padding-left: 20px;
+    }
+
+    .amumu ul li div p{
+        font-size: 18px;
+    }
+
+    .imgAmumu img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .rasgosecunAmumu{
+        padding-left: 70px;
+    }
+}
+
 
 @media (max-width:958px){
     .titanessegadores{
@@ -1467,6 +1734,115 @@ main {
         align-items: center;
         justify-content: center;
     }
+
+    .tabla ul{
+        gap: 20px;
+        padding-left: 80px;
+    }
+
+    .tabla ul li div h3{
+        font-size: 15px;
+    }
+
+    .aatrox ul{
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+    .aatrox ul li div p{
+        font-size: 12px;
+    }
+
+    .posiAtrox{
+        padding-left: 30px;
+    }
+
+    .rasgosecunAtrox{
+        padding-left: 0px;
+    }
+
+    .imgAtrox img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .ahri ul{
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+    .ahri ul li div p{
+        font-size: 12px;
+    }
+
+    .imgAhri img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .sinergiaAhri{
+        padding-left: 10px;
+    }
+
+    .rasgosecunAhri{
+        padding-left: 20px;
+    }
+
+    .posiAhri{
+        padding-left: 60px;
+    }
+
+    .alune ul{
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+    .alune ul li div p{
+        font-size: 12px;
+    }
+
+    .imgAlune img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .sinergiaAlune{
+        padding-left: 15px;
+    }
+
+    .rasgosecunAlune{
+        padding-left: 30px;
+    }
+
+    .posiAlune{
+        padding-left: 55px;
+    }
+
+    .amumu ul{
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+    .amumu ul li div p{
+        font-size: 12px;
+    }
+
+    .imgAmumu img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .sinergiaAmumu{
+        padding-left: 10px;
+    }
+
+    .rasgosecunAmumu{
+        padding-left: 20px;
+    }
+
+    .posiAmumu{
+        padding-left: 60px;
+    }
 }
 
 @media (max-width:681px){
@@ -1550,11 +1926,7 @@ main {
     }
 }
 
-@media (max-width:396px){
-    footer p{
-        margin-left: 40px;
-    }
-}
+
 
 
 @media (max-width:403px){
@@ -1700,6 +2072,103 @@ main {
         justify-content: center;
     }
 
+}
+
+@media (max-width:396px){
+    footer p{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:384px){
+    .tabla ul{
+        gap: 10px;
+        padding-left: 50px;
+    }
+
+    .tabla ul li div h3{
+        font-size: 13px;
+    }
+
+    .aatrox ul{
+        gap: 15px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .aatrox ul li div p{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .imgAtrox img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .ahri ul{
+        gap: 15px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .ahri ul li div p{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .imgAhri img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .posiAhri{
+        padding-left: 50px;
+    }
+
+    .alune ul{
+        gap: 15px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .alune ul li div p{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .imgAlune img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .posiAlune{
+        padding-left: 45px;
+    }
+
+    .amumu ul{
+        gap: 15px;
+        padding-left: 5px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .amumu ul li div p{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .imgAmumu img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .posiAmumu{
+        padding-left: 50px;
+    }
 }
 
 
