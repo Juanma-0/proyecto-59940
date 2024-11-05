@@ -1058,7 +1058,178 @@ main {
         padding-left: 160px;
     }
 
+    .tabla-objetos ul{
+        gap: 180px;
+        padding-left: 250px;
+    }
+
+    .tabla-descripcion{
+        padding-left: 70px;
+    }
+
+    .armadura-petrea ul{
+        padding-left: 80px;
+        gap: 30px;
+    }
+
+    .armadura-petrea ul li p{
+        text-align: center;
+    }
+
+    .campeon-armadura{
+        padding-left: 0px;
+    }
+
+    .baculo-del-arcangel ul{
+        padding-left: 80px;
+        gap: 30px;
+    }
+
+    .baculo-del-arcangel ul li p{
+        text-align: center;
+    }
+
+    .desc-baculo{
+        padding-left: 50px;
+    }
+
+    .armado-baculo{
+        padding-left: 10px;
+    }
+
+    .campeon-baculo{
+        padding-left: 0px;
+    }
+
+    .capa-fuego-solar ul{
+        padding-left: 80px;
+        gap: 30px;
+    }
+
+    .capa-fuego-solar ul li p{
+        text-align: center;
+    }
+
+    .desc-capa{
+        padding-left: 10px;
+    }
+
+    .armado-capa{
+        padding-left: 10px;
+    }
+
+    .campeon-capa{
+        padding-left: 0px;
+    }
+
+    .chispa-ionica ul{
+        padding-left: 80px;
+        gap: 30px;
+    }
+
+    .chispa-ionica ul li p{
+        text-align: center;
+    }
+
+    .campeon-chispa{
+        padding-left: 0px;
+    }
 }
+
+@media (max-width:1346px){
+    .tabla-objetos ul{
+        gap: 100px;
+        padding-left: 170px;
+    }
+
+    .tabla-descripcion{
+        padding-left: 50px;
+    }
+
+    .tabla-objetos-armado{
+        padding-left: 130px;
+    }
+
+    .tabla-objetos ul li div h3{
+        font-size: 25px;
+    }
+
+    .armadura-petrea ul{
+        padding-left: 50px;
+        gap: 25px;
+    }
+
+    .armadura-petrea ul li p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .armadura-petrea ul li img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .baculo-del-arcangel ul{
+        padding-left: 50px;
+        gap: 25px;
+    }
+
+    .baculo-del-arcangel ul li p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .baculo-del-arcangel ul li img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .desc-baculo{
+        padding-left: 10px;
+    }
+
+    .capa-fuego-solar ul{
+        padding-left: 50px;
+        gap: 25px;
+    }
+
+    .capa-fuego-solar ul li p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .capa-fuego-solar ul li img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .desc-capa{
+        padding-left: 0px;
+    }
+
+    .armado-capa{
+        padding-left: 0px;
+    }
+
+    .chispa-ionica ul{
+        padding-left: 50px;
+        gap: 25px;
+    }
+
+    .chispa-ionica ul li p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .chispa-ionica ul li img{
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+}
+
 
 @media (max-width:1302px){
     .maton-tirotruco div ul li img{
@@ -1333,6 +1504,28 @@ main {
         margin-left: 140px;
     }
 }
+
+@media (max-width:972px){
+
+    .tabla-objetos ul{
+        gap: 50px;
+        padding-left: 170px;
+    }
+
+    .tabla-descripcion{
+        padding-left: 20px;
+    }
+
+    .tabla-objetos-armado{
+        padding-left: 50px;
+    }
+
+    .tabla-objetos ul li div h3{
+        font-size: 23px;
+    }
+
+}
+
 
 @media (max-width:960px){
     .tabla ul{
@@ -1845,6 +2038,104 @@ main {
     }
 }
 
+@media (max-width:686px){
+    .tabla-objetos ul{
+        gap: 20px;
+        padding-left: 70px;
+        padding-bottom: 0px;
+    }
+
+    .tabla-descripcion{
+        padding-left: 0px;
+    }
+
+    .tabla-objetos-armado{
+        padding-left: 20px;
+    }
+
+    .tabla-objetos ul li div h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .armadura-petrea ul{
+        padding-left: 5px;
+        gap: 10px;
+        padding-bottom: 0px;
+    }
+
+    .armadura-petrea ul li p{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+
+    .armadura-petrea ul li img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .baculo-del-arcangel ul{
+        padding-left: 5px;
+        gap: 10px;
+        padding-bottom: 0px;
+    }
+
+    .baculo-del-arcangel ul li p{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+
+    .baculo-del-arcangel ul li img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .desc-baculo{
+        padding-left: 10px;
+    }
+
+    .armado-baculo{
+        padding-left: 0px;
+    }
+
+    .capa-fuego-solar ul{
+        padding-left: 5px;
+        gap: 10px;
+        padding-bottom: 0px;
+    }
+
+    .capa-fuego-solar ul li p{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+
+    .capa-fuego-solar ul li img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .chispa-ionica ul{
+        padding-left: 5px;
+        gap: 10px;
+        padding-bottom: 0px;
+    }
+
+    .chispa-ionica ul li p{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+
+    .chispa-ionica ul li img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .desc-chispa{
+        padding-left: 0px;
+    }
+}
+
+
 @media (max-width:681px){
 
 
@@ -1927,6 +2218,67 @@ main {
 }
 
 
+@media (max-width:407px){
+    .tabla-objetos ul{
+        gap: 12px;
+        padding-left: 50px;
+        padding-bottom: 0px;
+    }
+
+    .tabla-objetos-armado{
+        padding-left: 5px;
+    }
+
+    .tabla-objetos ul li div h3{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .armadura-petrea ul{
+        padding-left: 1px;
+        gap: 5px;
+        padding-bottom: 0px;
+    }
+
+    .armadura-petrea ul li p{
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+    .baculo-del-arcangel ul{
+        padding-left: 1px;
+        gap: 5px;
+        padding-bottom: 0px;
+    }
+
+    .baculo-del-arcangel ul li p{
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+    .capa-fuego-solar ul{
+        padding-left: 1px;
+        gap: 5px;
+        padding-bottom: 0px;
+    }
+
+    .capa-fuego-solar ul li p{
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+    .chispa-ionica ul{
+        padding-left: 1px;
+        gap: 5px;
+        padding-bottom: 0px;
+    }
+
+    .chispa-ionica ul li p{
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+}
 
 
 @media (max-width:403px){
