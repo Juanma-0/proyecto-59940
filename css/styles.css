@@ -788,6 +788,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 10px;
     
     
 }
@@ -812,6 +813,7 @@ main {
     border-color: #2A274B;
     border-radius: 1.5625rem;
     
+    
 }
 
 .nota-de-parche p {
@@ -823,6 +825,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 
@@ -1133,6 +1136,10 @@ main {
 
     .campeon-chispa{
         padding-left: 0px;
+    }
+
+    .nota-de-parche{
+        margin-left: 325px;
     }
 }
 
@@ -1497,11 +1504,27 @@ main {
         align-items: center;
         justify-content: center;
     }
+
+    .nota-de-parche{
+        height: 750px;
+    }
+}
+
+@media (max-width:1242px){
+    .nota-de-parche{
+        margin-left: 275px;
+        height: 750px;
+    }
 }
 
 @media (max-width:1024px){
     .seccionNotaParche {
         margin-left: 140px;
+    }
+
+    .nota-de-parche{
+        margin-left: 240px;
+        height: 800px;
     }
 }
 
@@ -1752,6 +1775,27 @@ main {
         font-size: 35px;
     }
 }
+
+@media (max-width:876px){
+    .nota-de-parche{
+        margin-left: 180px;
+        height: 820px;
+    }
+
+    .nota-de-parche div h3{
+        font-size: 45px;
+    }
+
+    .nota-de-parche p{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .nota-de-parche div dl{
+        font-size: 18px;
+    }
+}
+
 
 @media (max-width:809px){
     .seccionNotaParche p{
@@ -2036,6 +2080,25 @@ main {
     .posiAmumu{
         padding-left: 60px;
     }
+
+    .nota-de-parche{
+        width: 80%;
+        margin-left: 80px;
+        height: 750px;
+    }
+
+    .nota-de-parche div h3{
+        font-size: 40px;
+    }
+
+    .nota-de-parche p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .nota-de-parche div dl{
+        font-size: 17px;
+    }
 }
 
 @media (max-width:686px){
@@ -2214,6 +2277,40 @@ main {
     header nav ul{
         flex-direction: row;
         
+    }
+}
+
+
+@media (max-width:530px){
+    .nota-de-parche{
+        width: 80%;
+        margin-left: 60px;
+        height: 850px;
+        
+    }
+}
+
+
+
+@media (max-width:416px){
+    .nota-de-parche{
+        width: 80%;
+        margin-left: 45px;
+        height: 800px;
+        
+    }
+
+    .nota-de-parche div h3{
+        font-size: 35px;
+    }
+
+    .nota-de-parche p{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .nota-de-parche div dl{
+        font-size: 15px;
     }
 }
 
@@ -2588,4 +2685,11 @@ main {
 
 
 }
+
+@media (max-width:344px){
+    .nota-de-parche{
+        height: 920px;
+    }
+}
+
 
