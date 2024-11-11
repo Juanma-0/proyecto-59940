@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zain:wght@200;300;400;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  background-color: #323050;
+  color: #070707;
+}
+footer h6 {
+  text-align: left;
+  margin-top: 150px;
+}
+footer p {
+  margin-left: 750px;
+  margin-top: 120px;
+  font-family: "Zain", sans-serif;
+  font-size: large;
+  font-weight: 500;
+  font-style: normal;
+}
+footer div {
+  height: 50%;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 25px;
+}
+footer div a {
+  display: flex;
+  gap: 1.25rem;
+  width: 45px;
+  height: 45px;
+  margin-right: 1rem;
+  margin-top: 0.625rem;
+}
+
+header {
+  background-color: #2A274B;
+  color: white;
+  margin: 0;
+}
+header div {
+  size: 5.75rem 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header div h2 {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.625rem;
+}
+header div img {
+  display: flex;
+  width: 59px;
+  height: 59px;
+  margin-right: 1rem;
+  margin-top: 0.625rem;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  size: 6.25rem 6.25rem;
+}
+header nav ul li {
+  margin: 1.875rem;
+  padding: 10px 25px;
+  border-radius: 0.3125rem;
+  border-color: rgba(114, 113, 113, 0.2274509804);
+  border-style: ridge;
+  border-radius: 1.5625rem;
+  background-color: #323050;
+}
+header nav ul li a {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: oblique;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #ebbf6e;
+}
+
+main {
+  background-color: #323050;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+main .seccionTituloBienvenida {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-image: url("../assets/img/Fabulas-de-tinta-vectorizado.png");
+  background-position: top;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  padding-bottom: 0px;
+}
+main .seccionTituloBienvenida h1 {
+  size: initial;
+  text-align: center;
+  color: #D4D4D4;
+  padding-top: 1.875rem;
+  font-size: 70px;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+main .seccionNotaParche {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 23rem;
+  width: 75%;
+  margin-left: 250px;
+  background-color: #403E5E;
+  background-size: 50% 300px;
+  padding-top: 0.3125rem;
+  border-color: rgba(114, 113, 113, 0.2274509804);
+  border-style: ridge;
+  border-radius: 1.5625rem;
+  border-width: 10%;
+}
+main .seccionNotaParche div h2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: #2A274B;
+  background-size: auto;
+  border-color: #2A274B;
+  border-radius: 1.5625rem;
+}
+main .seccionNotaParche div a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  width: 100%;
+}
+main .seccionNotaParche p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  width: 100%;
+  padding-top: 2.1875rem;
+}
+main .seccionNotaParche ul li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.botonInicio {
+  border-color: #ebbf6e;
+  border-style: ridge;
+}
+
+.botonCompos {
+  border-color: #ebbf6e;
+  border-style: ridge;
+}
+
+.botonCampeones {
+  border-color: #ebbf6e;
+  border-style: ridge;
+}
+
+.botonObjetos {
+  border-color: #ebbf6e;
+  border-style: ridge;
+}
+
+.botonNotas {
+  border-color: #ebbf6e;
+  border-style: ridge;
+}
+
+/*# sourceMappingURL=style.css.map */

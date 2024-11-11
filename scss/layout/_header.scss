@@ -1,0 +1,60 @@
+
+
+header {
+    background-color: map-get($color , primario );
+    color: map-get($color , terciario );
+    margin: 0;
+    div{
+        size: 5.75rem 100%;
+        display: flex;
+        justify-content: space-between;
+        h2{
+            font-family: "Zain", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: .625rem;
+        }
+        img{
+            display: flex;
+            width: 59px;
+            height: 59px;
+            margin-right: 1rem;
+            margin-top: .625rem;
+        }
+        
+    }
+    nav{
+        ul{
+            @include flex(row,wrap,space-between,center);
+            list-style: none;
+            size: 6.25rem 6.25rem;
+            li{
+                margin: 1.875rem;
+                padding:  10px 25px;
+                border-radius: .3125rem;
+                border-color: map-get($color , secundario );
+                border-style: ridge;
+                border-radius: 1.5625rem;
+                background-color: map-get($color , cuarto );
+                a{
+                    font-family: "Zain", sans-serif;
+                    font-weight: 700;
+                    font-style: oblique;
+                    font-size: 20px;
+                    color: map-get($color , terciario );
+                    text-decoration: none;
+                    &:hover{
+                        color: map-get($color , quinto )
+                    }
+                }
+                }
+                }
+            }
+        }
+    
+    ;

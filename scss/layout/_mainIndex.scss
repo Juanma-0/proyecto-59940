@@ -1,0 +1,88 @@
+
+main {
+    background-color: map-get($color, cuarto );
+    background-size: cover;
+    color: map-get($color, terciario );
+    margin: 0;
+    width: 100%;
+    .seccionTituloBienvenida{
+        width: 100%;
+        height: 600px;
+        text-align: center;
+        background-image: url("../assets/img/Fabulas-de-tinta-vectorizado.png");
+        background-position:top;
+        object-fit: contain;
+        background-repeat: no-repeat;
+        background-size: contain ;
+        margin: 0;
+        padding-bottom: 0px;
+        h1{
+            size:initial;
+            text-align: center;
+            color: map-get($color, septimo );
+            padding-top: 1.875rem;
+            font-size: 70px;
+            font-family: "Zain", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+    }
+    .seccionNotaParche{
+        @include flex(column,wrap,center,center);
+        height: 23rem;
+        width: 75%;
+        margin-left: 250px;
+        background-color: map-get($color, octavo );
+        background-size: 50% 300px;
+        padding-top: .3125rem;
+        border-color: map-get($color, secundario );
+        border-style:ridge;
+        border-radius: 1.5625rem;
+        border-width: 10%;
+        div{
+            h2{
+                @include flex(column,wrap,center,center);
+                font-family: "Zain", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 50px;
+                width: 100%;
+                margin-bottom: 40px;
+                background-color: map-get($color, primario );
+                background-size:auto;
+                border-color: map-get($color, primario );
+                border-radius: 1.5625rem;
+            }
+            a{
+                @include flex(column,wrap,center,center);
+                color: map-get($color, terciario );
+                text-decoration: none;
+                font-family: "Zain", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 1.25rem;
+                width: 100%;
+            }
+        }
+        p{
+            @include flex(column,wrap,center,center);
+            font-family: "Zain", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.25rem;
+            width: 100%;
+            padding-top: 2.1875rem;
+        }
+        ul{
+            li{
+                @include flex(column,wrap,center,center);
+                font-family: "Zain", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 1.25rem;
+                width: 100%;
+            }
+        }
+    }
+}
+
