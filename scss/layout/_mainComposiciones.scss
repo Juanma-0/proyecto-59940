@@ -1,0 +1,72 @@
+
+.imagen-s {
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    
+}
+
+
+.titanessegadores{
+    font-family: "Zain", sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    padding-left: 80px;
+    gap: 50px;
+    div{
+        h4{
+            padding-top: 3.125rem;
+        }
+        h3{
+            padding-top: 2.8125rem;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            height: 150px;
+            flex-direction: row;
+            gap: 40px;
+            border-color: map-get($color, primario );
+            border-style: solid;
+            border-radius: 100rem;
+            background-color:map-get($color, primario );
+            border-width: 10px;
+            li{
+                img{
+                    height: 100px;
+                    width: 100px;
+                    border-radius: 100rem;
+                }
+            }
+        }
+    }
+
+}
+
+.maton-tirotruco{
+    @extend .titanessegadores;
+
+}
+
+
+.tinta-sombria{
+    @extend .titanessegadores;
+    div{
+        ul{
+            height: 8.75rem;
+        }
+    }
+}
+
+.roll-eruditos{
+    @extend .tinta-sombria;
+}
+
+.dumplings-mortales{
+    @extend .tinta-sombria;
+}

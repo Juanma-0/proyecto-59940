@@ -1,0 +1,113 @@
+
+
+.tabla{
+    ul{
+        @include flex2 (row, 16.875rem, 500px, 3.125rem, 0rem);
+        li{
+            div{
+                h3{
+                    font-family: "Zain", sans-serif;
+                    font-weight: 20px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+.aatrox{
+    ul{
+        @include flex2 (row, 11.25rem, 12.5rem, 3.125rem, 3.125rem);
+        li{
+            div{
+                p{
+                    font-family: "Zain", sans-serif;
+                    font-weight: 5px;
+                    font-size: 30px;
+                    padding-top: 1.875rem;
+                }
+            }
+        }
+        .rasgosecunAtrox{
+            padding-left: 50px;
+        }
+        .posiAtrox{
+            padding-left: 200px;
+        }
+    }
+}
+
+.ahri ul{
+    @include flex2 (row, 12.5rem, 12.5rem, 3.125rem, 3.125rem);
+    li{
+        div{
+            p{
+                font-family: "Zain", sans-serif;
+                font-weight: 5px;
+                font-size: 30px;
+                padding-top: 1.875rem;
+            }
+        }
+    }
+    .sinergiaAhri{
+        padding-left: 50px;
+    }
+    
+    .rasgosecunAhri{
+        padding-left: 100px;
+    }
+    
+    .posiAhri{
+        padding-left: 180px;
+    }
+}
+
+.alune ul{
+    @include flex2 (row, 11.875rem, 12.5rem, 3.125rem, 3.125rem);
+    li{
+        div{
+            p{
+                font-family: "Zain", sans-serif;
+                font-weight: 5px;
+                font-size: 30px;
+                padding-top: 1.875rem;
+            }
+        }
+    }
+    .sinergiaAlune{
+        padding-left: 80px;
+    }
+    
+    .rasgosecunAlune{
+        padding-left: 140px;
+    }
+    
+    .posiAlune{
+        padding-left: 180px;
+    }
+}
+
+.amumu ul{
+    @include flex2 (row, 11.875rem, 12.5rem, 3.125rem, 3.125rem);
+    li{
+        div{
+            p{
+                font-family: "Zain", sans-serif;
+                font-weight: 5px;
+                font-size: 30px;
+                padding-top: 1.875rem;
+            }
+        }
+    }
+    .sinergiaAmumu{
+        padding-left: 50px;
+    }
+    
+    .rasgosecunAmumu{
+        padding-left: 135px;
+    }
+    
+    .posiAmumu{
+        padding-left: 190px;
+    }
+}

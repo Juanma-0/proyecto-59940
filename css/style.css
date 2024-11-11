@@ -201,6 +201,345 @@ main .seccionNotaParche ul li {
   width: 100%;
 }
 
+.imagen-s {
+  height: 100px;
+  width: 100px;
+  padding-top: 20px;
+}
+
+.titanessegadores, .tinta-sombria, .dumplings-mortales, .roll-eruditos, .maton-tirotruco {
+  font-family: "Zain", sans-serif;
+  font-weight: 10;
+  font-size: 30px;
+  text-align: center;
+  font-style: normal;
+  display: flex;
+  padding-top: 100px;
+  flex-direction: row;
+  padding-left: 80px;
+  gap: 50px;
+}
+.titanessegadores div h4, .tinta-sombria div h4, .dumplings-mortales div h4, .roll-eruditos div h4, .maton-tirotruco div h4 {
+  padding-top: 3.125rem;
+}
+.titanessegadores div h3, .tinta-sombria div h3, .dumplings-mortales div h3, .roll-eruditos div h3, .maton-tirotruco div h3 {
+  padding-top: 2.8125rem;
+}
+.titanessegadores div ul, .tinta-sombria div ul, .dumplings-mortales div ul, .roll-eruditos div ul, .maton-tirotruco div ul {
+  list-style: none;
+  display: flex;
+  height: 150px;
+  flex-direction: row;
+  gap: 40px;
+  border-color: #2A274B;
+  border-style: solid;
+  border-radius: 100rem;
+  background-color: #2A274B;
+  border-width: 10px;
+}
+.titanessegadores div ul li img, .tinta-sombria div ul li img, .dumplings-mortales div ul li img, .roll-eruditos div ul li img, .maton-tirotruco div ul li img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100rem;
+}
+
+.tinta-sombria div ul, .dumplings-mortales div ul, .roll-eruditos div ul {
+  height: 8.75rem;
+}
+
+.tabla ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 16.875rem;
+  padding-left: 500px;
+  padding-top: 3.125rem;
+  padding-bottom: 0rem;
+}
+.tabla ul li div h3 {
+  font-family: "Zain", sans-serif;
+  font-weight: 20px;
+  font-size: 30px;
+}
+
+.aatrox ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 11.25rem;
+  padding-left: 12.5rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.aatrox ul li div p {
+  font-family: "Zain", sans-serif;
+  font-weight: 5px;
+  font-size: 30px;
+  padding-top: 1.875rem;
+}
+.aatrox ul .rasgosecunAtrox {
+  padding-left: 50px;
+}
+.aatrox ul .posiAtrox {
+  padding-left: 200px;
+}
+
+.ahri ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 12.5rem;
+  padding-left: 12.5rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.ahri ul li div p {
+  font-family: "Zain", sans-serif;
+  font-weight: 5px;
+  font-size: 30px;
+  padding-top: 1.875rem;
+}
+.ahri ul .sinergiaAhri {
+  padding-left: 50px;
+}
+.ahri ul .rasgosecunAhri {
+  padding-left: 100px;
+}
+.ahri ul .posiAhri {
+  padding-left: 180px;
+}
+
+.alune ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 11.875rem;
+  padding-left: 12.5rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.alune ul li div p {
+  font-family: "Zain", sans-serif;
+  font-weight: 5px;
+  font-size: 30px;
+  padding-top: 1.875rem;
+}
+.alune ul .sinergiaAlune {
+  padding-left: 80px;
+}
+.alune ul .rasgosecunAlune {
+  padding-left: 140px;
+}
+.alune ul .posiAlune {
+  padding-left: 180px;
+}
+
+.amumu ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 11.875rem;
+  padding-left: 12.5rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.amumu ul li div p {
+  font-family: "Zain", sans-serif;
+  font-weight: 5px;
+  font-size: 30px;
+  padding-top: 1.875rem;
+}
+.amumu ul .sinergiaAmumu {
+  padding-left: 50px;
+}
+.amumu ul .rasgosecunAmumu {
+  padding-left: 135px;
+}
+.amumu ul .posiAmumu {
+  padding-left: 190px;
+}
+
+.tabla-objetos ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 21.875rem;
+  padding-left: 25rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.tabla-objetos ul li div h3 {
+  font-family: "Zain", sans-serif;
+  font-weight: 20px;
+  font-size: 30px;
+}
+.tabla-objetos ul .tabla-objetos-armado {
+  padding-left: 100px;
+}
+
+.armadura-petrea ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 6.25rem;
+  padding-left: 9.375rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.armadura-petrea ul li {
+  text-align: center;
+}
+.armadura-petrea ul li p {
+  padding-top: 20px;
+  font-family: "Zain", sans-serif;
+  font-size: 25px;
+}
+.armadura-petrea ul .campeon-armadura {
+  padding-left: 100px;
+}
+
+.baculo-del-arcangel ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 6.25rem;
+  padding-left: 9.375rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.baculo-del-arcangel ul li {
+  text-align: center;
+}
+.baculo-del-arcangel ul li p {
+  padding-top: 20px;
+  font-family: "Zain", sans-serif;
+  font-size: 25px;
+}
+.baculo-del-arcangel ul .desc-baculo {
+  padding-left: 120px;
+}
+.baculo-del-arcangel ul .armado-baculo {
+  padding-left: 75px;
+}
+.baculo-del-arcangel ul .campeon-baculo {
+  padding-left: 100px;
+}
+
+.capa-fuego-solar ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 6.25rem;
+  padding-left: 9.375rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.capa-fuego-solar ul li {
+  text-align: center;
+}
+.capa-fuego-solar ul li p {
+  padding-top: 20px;
+  font-family: "Zain", sans-serif;
+  font-size: 25px;
+}
+.capa-fuego-solar ul .armado-capa {
+  padding-left: 60px;
+}
+.capa-fuego-solar ul .campeon-capa {
+  padding-left: 130px;
+}
+
+.chispa-ionica ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 6.25rem;
+  padding-left: 9.375rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.chispa-ionica ul li {
+  text-align: center;
+}
+.chispa-ionica ul li p {
+  padding-top: 20px;
+  font-family: "Zain", sans-serif;
+  font-size: 25px;
+}
+.chispa-ionica ul .nombre-chispa {
+  padding-left: 25px;
+}
+.chispa-ionica ul .desc-chispa {
+  padding-left: 35px;
+}
+.chispa-ionica ul .campeon-chispa {
+  padding-left: 50px;
+}
+
+.nota-de-parche {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 60%;
+  margin-left: 400px;
+  background-color: #403E5E;
+  background-size: 50% 300px;
+  padding-top: 50px;
+  border-color: rgba(114, 113, 113, 0.2274509804);
+  border-style: ridge;
+  border-radius: 1.5625rem;
+  border-width: 10%;
+  padding-right: 10px;
+}
+.nota-de-parche div h3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: #2A274B;
+  background-size: auto;
+  border-color: #2A274B;
+  border-radius: 1.5625rem;
+}
+.nota-de-parche div p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+.nota-de-parche div dl {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zain", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
 .botonInicio {
   border-color: #ebbf6e;
   border-style: ridge;

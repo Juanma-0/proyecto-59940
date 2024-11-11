@@ -1,0 +1,51 @@
+
+
+.nota-de-parche{
+    @include flex (column, wrap, center, center);
+    height: 700px;
+    width: 60%;
+    margin-left: 400px;
+    background-color: map-get($color, octavo );
+    background-size: 50% 300px;
+    padding-top: 50px;
+    border-color: map-get($color, secundario );
+    border-style:ridge;
+    border-radius: 1.5625rem;
+    border-width: 10%;
+    padding-right: 10px;
+    div{
+        h3{
+            @include flex (column, wrap, center, center);
+            font-family: "Zain", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 50px;
+            width: 100%;
+            margin-bottom: 40px;
+            background-color: map-get($color, primario );
+            background-size:auto;
+            border-color: map-get($color, primario );
+            border-radius: 1.5625rem;
+        }
+        p{
+            @include flex (column, wrap, center, center);
+            font-family: "Zain", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 30px;
+            width: 100%;
+            text-align: center;
+        }
+        dl{
+            @include flex (column, wrap, center, center);
+            font-family: "Zain", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            width: 100%;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+        }
+    }
+}

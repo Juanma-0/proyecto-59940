@@ -8,3 +8,13 @@
     align-items: $align;
 
 };
+
+@mixin flex2 ($direction, $gap, $paddingleft, $paddingtop, $paddingbottom){
+    display: flex;
+    list-style: none;
+    flex-direction: $direction;
+    gap: $gap;
+    padding-left: $paddingleft;
+    padding-top: $paddingtop;
+    padding-bottom: $paddingbottom;
+};
