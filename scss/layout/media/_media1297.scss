@@ -1,0 +1,119 @@
+
+@media (max-width:1297px){
+
+    .tabla{
+        ul{
+            gap: 105px;
+            padding-left: 225px;
+            li{
+                div{
+                    h3{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .aatrox{
+        ul{
+            gap: 70px;
+            padding-left: 80px;
+            li{
+                div{
+                    p{
+                        font-size: 22px;
+                    }
+                }
+                .imgAtrox{
+                    img{
+                        @include img(5rem,5rem);
+                    }
+                }
+            }
+            .posiAtrox{
+                padding-left: 120px;
+            }
+            .rasgosecunAtrox{
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .ahri{
+        ul{
+            gap: 75px;
+            padding-left: 80px;
+            li{
+                div{
+                    p{
+                        font-size: 22px;
+                    }
+                }
+            }
+            .imgAhri{
+                img{
+                    @include img(5rem, 5rem);
+                }
+            }
+            .rasgosecunAhri{
+                padding-left: 70px;
+            }
+            .posiAhri{
+                padding-left: 120px;
+            }
+        }
+    }
+
+    .alune{
+        ul{
+            gap: 70px;
+            padding-left: 80px;
+            li{
+                div{
+                    p{
+                        font-size: 22px;
+                    }
+                }
+                .imgAlune{
+                    img{
+                        @include img(5rem,5rem);
+                    }
+                }
+                .rasgosecunAlune{
+                    padding-left: 85px;
+                }
+            
+                .posiAlune{
+                    padding-left: 115px;
+                }
+            }
+        }
+    }
+
+    .amumu{
+        ul{
+            gap: 70px;
+            padding-left: 80px;
+            li{
+                div{
+                    p{
+                        font-size: 22px;
+                    }
+                }
+                .imgAmumu{
+                    img{
+                        @include img(5rem,5rem);
+                    }
+                }
+                .rasgosecunAmumu{
+                    padding-left: 95px;
+                }
+            
+                .posiAmumu{
+                    padding-left: 110px;
+                }
+            }
+        }
+    }
+
+}

@@ -565,4 +565,769 @@ main .seccionNotaParche ul li {
   border-style: ridge;
 }
 
+@media (max-width: 1440px) {
+  main .seccionNotaParche {
+    margin-left: 170px;
+  }
+  .imagen-s {
+    height: 80px;
+    width: 80px;
+  }
+  .titanessegadores, .maton-tirotruco, .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 25px;
+    gap: 25px;
+  }
+  .titanessegadores div h4, .maton-tirotruco div h4, .tinta-sombria div h4, .roll-eruditos div h4, .dumplings-mortales div h4 {
+    padding-top: 35px;
+  }
+  .titanessegadores div h3, .maton-tirotruco div h3, .tinta-sombria div h3, .roll-eruditos div h3, .dumplings-mortales div h3 {
+    padding-top: 30px;
+  }
+  .titanessegadores div ul, .maton-tirotruco div ul, .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 30px;
+    height: 100px;
+  }
+  .titanessegadores div ul li img, .maton-tirotruco div ul li img, .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .maton-tirotruco {
+    font-size: 25px;
+    gap: 25px;
+  }
+  .maton-tirotruco div h4 {
+    padding-top: 2.1875rem;
+  }
+  .maton-tirotruco div h3 {
+    padding-top: 30px;
+  }
+  .maton-tirotruco div ul {
+    gap: 30px;
+    height: 100px;
+  }
+  .maton-tirotruco div ul li img {
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+  }
+  .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 25px;
+    gap: 25px;
+  }
+  .tinta-sombria div h4, .roll-eruditos div h4, .dumplings-mortales div h4 {
+    padding-top: 35px;
+  }
+  .tinta-sombria div h3, .roll-eruditos div h3, .dumplings-mortales div h3 {
+    padding-top: 30px;
+  }
+  .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 30px;
+    height: 100px;
+  }
+  .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+  }
+  .roll-eruditos {
+    font-size: 25px;
+    gap: 25px;
+  }
+  .roll-eruditos div h4 {
+    padding-top: 35px;
+  }
+  .roll-eruditos div h3 {
+    padding-top: 30px;
+  }
+  .roll-eruditos div ul {
+    gap: 30px;
+    height: 100px;
+  }
+  .roll-eruditos div ul li img {
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+  }
+  .dumplings-mortales {
+    font-size: 25px;
+    gap: 25px;
+  }
+  .dumplings-mortales div h4 {
+    padding-top: 35px;
+  }
+  .dumplings-mortales div h3 {
+    padding-top: 30px;
+  }
+  .dumplings-mortales div ul {
+    gap: 30px;
+    height: 100px;
+  }
+  .dumplings-mortales div ul li img {
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+  }
+  .tabla ul {
+    gap: 150px;
+    padding-left: 350px;
+  }
+  .aatrox ul {
+    gap: 100px;
+    padding-left: 150px;
+  }
+  .aatrox ul li div p {
+    font-size: 25px;
+  }
+  .aatrox ul li .imgAtrox img {
+    width: 100px;
+    height: 100px;
+  }
+  .aatrox ul .posiAtrox {
+    padding-left: 160px;
+  }
+  .ahri ul {
+    gap: 110px;
+    padding-left: 150px;
+  }
+  .ahri ul li div p {
+    font-size: 25px;
+  }
+  .ahri ul .posiAhri {
+    padding-left: 155px;
+  }
+  .ahri ul .imgAhri img {
+    width: 100px;
+    height: 100px;
+  }
+  .alune ul {
+    gap: 100px;
+    padding-left: 150px;
+  }
+  .alune ul li div p {
+    font-size: 25px;
+  }
+  .alune ul li .rasgosecunAlune {
+    padding-left: 130px;
+  }
+  .alune ul li .posiAlune {
+    padding-left: 160px;
+  }
+  .alune ul li .imgAlune img {
+    width: 100px;
+    height: 100px;
+  }
+  .amumu ul {
+    gap: 100px;
+    padding-left: 150px;
+  }
+  .amumu ul li div p {
+    font-size: 25px;
+  }
+  .amumu ul li .imgAmumu img {
+    width: 100px;
+    height: 100px;
+  }
+  .amumu ul li .posiAmumu {
+    padding-left: 160px;
+  }
+  .tabla-objetos ul {
+    gap: 180px;
+    padding-left: 250px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 70px;
+  }
+  .armadura-petrea ul {
+    padding-left: 80px;
+    gap: 30px;
+  }
+  .armadura-petrea ul li p {
+    text-align: center;
+  }
+  .armadura-petrea ul .campeon-armadura {
+    padding-left: 0px;
+  }
+  .baculo-del-arcangel ul {
+    padding-left: 80px;
+    gap: 30px;
+  }
+  .baculo-del-arcangel ul .desc-baculo {
+    padding-left: 50px;
+  }
+  .baculo-del-arcangel ul .armado-baculo {
+    padding-left: 10px;
+  }
+  .baculo-del-arcangel ul .campeon-baculo {
+    padding-left: 0px;
+  }
+  .baculo-del-arcangel ul li p {
+    text-align: center;
+  }
+  .capa-fuego-solar ul {
+    padding-left: 80px;
+    gap: 30px;
+  }
+  .capa-fuego-solar ul .desc-capa {
+    padding-left: 10px;
+  }
+  .capa-fuego-solar ul .armado-capa {
+    padding-left: 10px;
+  }
+  .capa-fuego-solar ul .campeon-capa {
+    padding-left: 0px;
+  }
+  .capa-fuego-solar ul li p {
+    text-align: center;
+  }
+  .chispa-ionica ul {
+    padding-left: 80px;
+    gap: 30px;
+  }
+  .chispa-ionica ul .campeon-chispa {
+    padding-left: 0px;
+  }
+  .chispa-ionica ul .nota-de-parche {
+    margin-left: 325px;
+  }
+  .chispa-ionica ul li p {
+    text-align: center;
+  }
+}
+@media (max-width: 1346px) {
+  .tabla-objetos ul {
+    gap: 100px;
+    padding-left: 170px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 150px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 200px;
+  }
+  .tabla-objetos ul li div h3 {
+    font-size: 25px;
+  }
+  .armadura-petrea ul {
+    padding-left: 50px;
+    gap: 25px;
+  }
+  .armadura-petrea ul li p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .armadura-petrea ul li img {
+    width: 80px;
+    height: 80px;
+  }
+  .baculo-del-arcangel ul {
+    padding-left: 50px;
+    gap: 25px;
+  }
+  .baculo-del-arcangel ul .desc-baculo {
+    padding-left: 100px;
+  }
+  .baculo-del-arcangel ul .armado-baculo {
+    padding-left: 50px;
+  }
+  .baculo-del-arcangel ul li p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .baculo-del-arcangel ul li img {
+    width: 80px;
+    height: 80px;
+  }
+  .capa-fuego-solar ul {
+    padding-left: 50px;
+    gap: 25px;
+  }
+  .capa-fuego-solar ul .desc-capa {
+    padding-left: 20px;
+  }
+  .capa-fuego-solar ul .armado-capa {
+    padding-left: 30px;
+  }
+  .capa-fuego-solar ul li p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .capa-fuego-solar ul li img {
+    width: 80px;
+    height: 80px;
+  }
+  .chispa-ionica ul {
+    padding-left: 50px;
+    gap: 25px;
+  }
+  .chispa-ionica ul li p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .chispa-ionica ul li img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 1302px) {
+  .maton-tirotruco div ul li img {
+    height: 70px;
+    width: 70px;
+  }
+}
+@media (max-width: 1297px) {
+  .tabla ul {
+    gap: 105px;
+    padding-left: 225px;
+  }
+  .tabla ul li div h3 {
+    font-size: 25px;
+  }
+  .aatrox ul {
+    gap: 70px;
+    padding-left: 80px;
+  }
+  .aatrox ul li div p {
+    font-size: 22px;
+  }
+  .aatrox ul li .imgAtrox img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .aatrox ul .posiAtrox {
+    padding-left: 120px;
+  }
+  .aatrox ul .rasgosecunAtrox {
+    padding-left: 20px;
+  }
+  .ahri ul {
+    gap: 75px;
+    padding-left: 80px;
+  }
+  .ahri ul li div p {
+    font-size: 22px;
+  }
+  .ahri ul .imgAhri img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .ahri ul .rasgosecunAhri {
+    padding-left: 70px;
+  }
+  .ahri ul .posiAhri {
+    padding-left: 120px;
+  }
+  .alune ul {
+    gap: 70px;
+    padding-left: 80px;
+  }
+  .alune ul li div p {
+    font-size: 22px;
+  }
+  .alune ul li .imgAlune img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .alune ul li .rasgosecunAlune {
+    padding-left: 85px;
+  }
+  .alune ul li .posiAlune {
+    padding-left: 115px;
+  }
+  .amumu ul {
+    gap: 70px;
+    padding-left: 80px;
+  }
+  .amumu ul li div p {
+    font-size: 22px;
+  }
+  .amumu ul li .imgAmumu img {
+    height: 5rem;
+    width: 5rem;
+  }
+  .amumu ul li .rasgosecunAmumu {
+    padding-left: 95px;
+  }
+  .amumu ul li .posiAmumu {
+    padding-left: 110px;
+  }
+}
+@media (max-width: 1272px) {
+  footer h6 {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  footer p {
+    margin-left: 500px;
+    margin-top: 125px;
+    font-family: "Zain", sans-serif;
+    font-size: large;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .seccionNotaParche {
+    height: 31.25rem;
+  }
+  .seccionNotaParche div {
+    height: 15%;
+  }
+  .seccionNotaParche div h2 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .seccionNotaParche p {
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+  }
+  .nota-de-parche {
+    margin-left: 18.75rem;
+    height: 800px;
+  }
+}
+@media (max-width: 1257px) {
+  .titanessegadores, .maton-tirotruco, .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 20px;
+    gap: 15px;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1242px) {
+  .titanessegadores div ul, .maton-tirotruco div ul, .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 20px;
+    height: 100px;
+  }
+  .titanessegadores div ul li img, .maton-tirotruco div ul li img, .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 4.375rem;
+    width: 4.375rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .maton-tirotruco {
+    font-size: 20px;
+    gap: 15px;
+    padding-left: 20px;
+  }
+  .maton-tirotruco div ul {
+    gap: 20px;
+    height: 85px;
+  }
+  .maton-tirotruco div ul li img {
+    height: 3.75rem;
+    width: 3.75rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 20px;
+    gap: 15px;
+    padding-left: 20px;
+  }
+  .tinta-sombria div h4, .roll-eruditos div h4, .dumplings-mortales div h4 {
+    padding-top: 33px;
+  }
+  .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 20px;
+    height: 85px;
+  }
+  .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 4.375rem;
+    width: 4.375rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .roll-eruditos {
+    font-size: 20px;
+    gap: 15px;
+    padding-left: 20px;
+  }
+  .roll-eruditos div h4 {
+    padding-top: 35px;
+  }
+  .roll-eruditos div ul {
+    gap: 20px;
+    height: 85px;
+  }
+  .roll-eruditos div ul li img {
+    height: 4.0625rem;
+    width: 4.0625rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .dumplings-mortales {
+    font-size: 20px;
+    gap: 15px;
+    padding-left: 20px;
+  }
+  .dumplings-mortales div ul {
+    gap: 20px;
+    height: 85px;
+  }
+  .dumplings-mortales div ul li img {
+    height: 4.375rem;
+    width: 4.375rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1142px) {
+  .tabla-objetos ul {
+    gap: 80px;
+    padding-left: 170px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 100px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 1024px) {
+  main .seccionNotaParche {
+    margin-left: 140px;
+  }
+  .nota-de-parche {
+    margin-left: 240px;
+    height: 800px;
+  }
+}
+@media (max-width: 972px) {
+  .tabla-objetos ul {
+    gap: 50px;
+    padding-left: 170px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 120px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 130px;
+  }
+  .tabla-objetos ul li div h3 {
+    font-size: 23px;
+  }
+  .titanessegadores, .maton-tirotruco, .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 18px;
+    gap: 13px;
+    padding-left: 10px;
+    padding-top: 70px;
+  }
+  .titanessegadores div h4, .maton-tirotruco div h4, .tinta-sombria div h4, .roll-eruditos div h4, .dumplings-mortales div h4 {
+    padding-top: 30px;
+  }
+  .titanessegadores div h3, .maton-tirotruco div h3, .tinta-sombria div h3, .roll-eruditos div h3, .dumplings-mortales div h3 {
+    padding-top: 25px;
+  }
+  .titanessegadores div ul, .maton-tirotruco div ul, .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 15px;
+    height: 80px;
+  }
+  .titanessegadores div ul li img, .maton-tirotruco div ul li img, .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 3.4375rem;
+    width: 3.4375rem;
+  }
+  .imagen-s {
+    height: 60px;
+    width: 40px;
+  }
+  .maton-tirotruco {
+    font-size: 18px;
+    gap: 13px;
+    padding-left: 10px;
+    padding-top: 70px;
+  }
+  .maton-tirotruco div h4 {
+    padding-top: 30px;
+  }
+  .maton-tirotruco div h3 {
+    padding-top: 25px;
+  }
+  .maton-tirotruco div ul {
+    gap: 15px;
+    height: 70px;
+  }
+  .maton-tirotruco div ul li img {
+    height: 2.8125rem;
+    width: 2.8125rem;
+  }
+  .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 18px;
+    gap: 13px;
+    padding-left: 10px;
+    padding-top: 70px;
+  }
+  .tinta-sombria div h4, .roll-eruditos div h4, .dumplings-mortales div h4 {
+    padding-top: 30px;
+  }
+  .tinta-sombria div h3, .roll-eruditos div h3, .dumplings-mortales div h3 {
+    padding-top: 27px;
+  }
+  .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 15px;
+    height: 70px;
+  }
+  .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 3rem;
+    width: 3rem;
+  }
+  .roll-eruditos {
+    font-size: 18px;
+    gap: 13px;
+    padding-left: 10px;
+    padding-top: 70px;
+  }
+  .roll-eruditos div ul {
+    gap: 15px;
+    height: 70px;
+  }
+  .roll-eruditos div ul li img {
+    height: 3rem;
+    width: 3rem;
+  }
+  .dumplings-mortales {
+    font-size: 18px;
+    gap: 13px;
+    padding-left: 10px;
+    padding-top: 70px;
+  }
+  .dumplings-mortales div ul {
+    gap: 15px;
+    height: 70px;
+  }
+  .dumplings-mortales div ul li img {
+    height: 3.125rem;
+    width: 3.125rem;
+  }
+}
+@media (max-width: 960px) {
+  .tabla ul {
+    gap: 70px;
+    padding-left: 140px;
+  }
+  .tabla ul li div h3 {
+    font-size: 23px;
+  }
+  .aatrox ul {
+    gap: 50px;
+    padding-left: 40px;
+  }
+  .aatrox ul .posiAtrox {
+    padding-left: 90px;
+  }
+  .aatrox ul li .imgAtrox img {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+  .aatrox ul li div p {
+    font-size: 18px;
+  }
+  .ahri ul {
+    gap: 50px;
+    padding-left: 40px;
+  }
+  .ahri ul li div p {
+    font-size: 18px;
+  }
+  .ahri ul .imgAhri img {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+  .ahri ul .rasgosecunAhri {
+    padding-left: 40px;
+  }
+  .alune ul {
+    gap: 50px;
+    padding-left: 40px;
+  }
+  .alune ul li div p {
+    font-size: 18px;
+  }
+  .alune ul li .imgAlune img {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+  .alune ul li .sinergiaAlune {
+    padding-left: 60px;
+  }
+  .alune ul li .rasgosecunAlune {
+    padding-left: 60px;
+  }
+  .alune ul li .posiAlune {
+    padding-left: 110px;
+  }
+  .amumu ul {
+    gap: 50px;
+    padding-left: 40px;
+  }
+  .amumu ul li div p {
+    font-size: 18px;
+  }
+  .amumu ul li .imgAmumu img {
+    height: 3.75rem;
+    width: 3.75rem;
+  }
+  .amumu ul li .rasgosecunAmumu {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 930px) {
+  footer p {
+    margin-top: 120px;
+    margin-left: 250px;
+  }
+  footer h6 {
+    margin-top: 130px;
+  }
+  .nota-de-parche {
+    margin-left: 180px;
+    height: 850px;
+  }
+}
+@media (max-width: 902px) {
+  main .seccionNotaParche div h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 876px) {
+  .nota-de-parche {
+    margin-left: 180px;
+    height: 820px;
+  }
+  .nota-de-parche div h3 {
+    font-size: 45px;
+  }
+  .nota-de-parche div dl {
+    font-size: 18px;
+  }
+  .nota-de-parche p {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 80px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 100px;
+  }
+}
+@media (max-width: 809px) {
+  main .seccionNotaParche p {
+    font-size: 18px;
+  }
+  main .seccionNotaParche ul li {
+    font-size: 18px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 80px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 60px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

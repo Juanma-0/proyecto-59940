@@ -1,0 +1,102 @@
+
+@media (max-width:1346px){
+
+    .tabla-objetos{
+        ul{
+            gap: 100px;
+            padding-left: 170px;
+            .tabla-descripcion{
+                padding-left: 150px;
+            }
+        
+            .tabla-objetos-armado{
+                padding-left: 200px;
+            }
+            li{
+                div{
+                    h3{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+    .armadura-petrea{
+        ul{
+            padding-left: 50px;
+            gap: 25px;
+            li{
+                p{
+                    font-size: 20px;
+                    padding-top: 10px;
+                }
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+    .baculo-del-arcangel{
+        ul{
+            padding-left: 50px;
+            gap: 25px;
+            .desc-baculo{
+                padding-left: 100px;
+            }
+            .armado-baculo{
+                padding-left: 50px;
+            }
+            li{
+                p{
+                    font-size: 20px;
+                    padding-top: 10px;
+                }
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+    .capa-fuego-solar{
+        ul{
+            padding-left: 50px;
+            gap: 25px;
+            .desc-capa{
+                padding-left: 20px;
+            }
+        
+            .armado-capa{
+                padding-left: 30px;
+            }
+            li{
+                p{
+                    font-size: 20px;
+                    padding-top: 10px;
+                }
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+    .chispa-ionica{
+        ul{
+            padding-left: 50px;
+            gap: 25px;
+            li{
+                p{
+                    font-size: 20px;
+                    padding-top: 10px;
+                }
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+
+}

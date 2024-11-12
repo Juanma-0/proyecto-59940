@@ -1,0 +1,27 @@
+
+@media (max-width:809px){
+
+    main{
+        .seccionNotaParche{
+            p{
+                font-size: 18px;
+            }
+            ul{
+                li{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .tabla-objetos{
+        ul{
+            .tabla-descripcion{
+                padding-left: 80px;
+            }
+            .tabla-objetos-armado{
+                padding-left: 60px;
+            }
+        }
+    }
+}

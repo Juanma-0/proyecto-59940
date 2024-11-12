@@ -18,3 +18,8 @@
     padding-top: $paddingtop;
     padding-bottom: $paddingbottom;
 };
+
+@mixin img ($height, $width){
+    height: $height;
+    width: $width;
+};

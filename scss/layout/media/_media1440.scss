@@ -1,0 +1,313 @@
+
+@media (max-width:1440px){
+    main .seccionNotaParche {
+        margin-left: 170px;
+    }
+    .imagen-s{
+        height: 80px;
+        width: 80px;
+        
+    }
+    .titanessegadores{
+        font-size: 25px;
+        gap: 25px;
+        div{
+            h4{
+                padding-top: 35px;
+            }
+            h3{
+                padding-top: 30px;
+            }
+            ul{
+                gap: 30px;
+                height: 100px;
+                li{
+                    img{
+                        height: 80px;
+                        width: 80px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+    .maton-tirotruco{
+        font-size: 25px;
+        gap: 25px;
+        div{
+            h4{
+                padding-top: 2.1875rem;
+            }
+            h3{
+                padding-top: 30px;
+            }
+            ul{
+                gap: 30px;
+                height: 100px;
+                li{
+                    img{
+                        height: 75px;
+                        width: 75px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+    .tinta-sombria{
+        font-size: 25px;
+        gap: 25px;
+        div{
+            h4{
+                padding-top: 35px;
+            }
+            h3{
+                padding-top: 30px;
+            }
+            ul{
+                gap: 30px;
+                height: 100px;
+                li{
+                    img{
+                        height: 75px;
+                        width: 75px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+    .roll-eruditos{
+        font-size: 25px;
+        gap: 25px;
+        div{
+            h4{
+                padding-top: 35px;
+            }
+            h3{
+                padding-top: 30px;
+            }
+            ul{
+                gap: 30px;
+                height: 100px;
+                li{
+                    img{
+                        height: 75px;
+                        width: 75px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+    .dumplings-mortales{
+        font-size: 25px;
+        gap: 25px;
+        div{
+            h4{
+                padding-top: 35px;
+            }
+            h3{
+                padding-top: 30px;
+            }
+            ul{
+                gap: 30px;
+                height: 100px;
+                li{
+                    img{
+                        height: 75px;
+                        width: 75px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+    .tabla{ 
+        ul{
+        gap: 150px;
+        padding-left: 350px;
+        }
+    }
+    .aatrox {
+        ul{
+        gap: 100px;
+        padding-left: 150px;
+        li{
+            div{
+                p{
+                    font-size: 25px;
+                }
+            }
+            .imgAtrox{
+                img{
+                width: 100px;
+                height: 100px;
+                }
+            }
+        }
+        .posiAtrox{
+            padding-left: 160px;
+            }
+        }
+    }
+    .ahri {
+        ul{
+        gap: 110px;
+        padding-left: 150px;
+        li{
+            div{
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+        .posiAhri{
+            padding-left: 155px;
+        }
+        .imgAhri{
+            img{
+            width: 100px;
+            height: 100px;
+            }
+        }
+    }
+}
+    .alune {
+        ul{
+        gap: 100px;
+        padding-left: 150px;
+        li{
+            div{
+                p{
+                    font-size: 25px;
+                }
+            }
+            .rasgosecunAlune{
+                padding-left: 130px;
+            }
+            .posiAlune{
+                padding-left: 160px;
+            }
+            .imgAlune{
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            }
+        }
+    }
+    .amumu{
+        ul{
+            gap: 100px;
+            padding-left: 150px;
+            li{
+                div{
+                    p{
+                        font-size: 25px;
+                    }
+                }
+                .imgAmumu{
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+                .posiAmumu{
+                    padding-left: 160px;
+                }
+            }
+        }
+    }
+    .tabla-objetos{
+        ul{
+            gap: 180px;
+            padding-left: 250px;
+            .tabla-descripcion{
+                padding-left: 70px;
+            }
+        }
+    }
+    .armadura-petrea{
+        ul{
+            padding-left: 80px;
+            gap: 30px;
+            li{
+                p{
+                    text-align: center;
+                }
+            }
+            .campeon-armadura{
+                padding-left: 0px;
+            }
+        }
+    }
+    .baculo-del-arcangel{
+        ul{
+            padding-left: 80px;
+            gap: 30px;
+            .desc-baculo{
+                padding-left: 50px;
+            }
+        
+            .armado-baculo{
+                padding-left: 10px;
+            }
+        
+            .campeon-baculo{
+                padding-left: 0px;
+            }
+            li{
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .capa-fuego-solar{
+        ul{
+            padding-left: 80px;
+            gap: 30px;
+            .desc-capa{
+                padding-left: 10px;
+            }
+        
+            .armado-capa{
+                padding-left: 10px;
+            }
+        
+            .campeon-capa{
+                padding-left: 0px;
+            }
+            li{
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .chispa-ionica{
+        ul{
+            padding-left: 80px;
+            gap: 30px;
+            .campeon-chispa{
+                padding-left: 0px;
+            }
+        
+            .nota-de-parche{
+                margin-left: 325px;
+            }
+            li{
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

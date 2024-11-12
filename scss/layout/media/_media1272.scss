@@ -1,0 +1,41 @@
+
+@media (max-width:1272px){
+
+    footer{
+        h6{
+            display: flex;
+            margin-top: 150px;
+            margin-left: 50px;
+        }
+        p{
+            margin-left: 500px;
+            margin-top: 125px;
+            font-family: "Zain", sans-serif;
+            font-size: large;
+            font-weight: 500;
+            font-style: normal;
+        }
+    }
+
+    .seccionNotaParche{
+        height: 31.25rem;
+        div{
+            height: 15%;
+            h2{
+                font-size: 40px;
+                margin-bottom: 0px;
+            }
+        }
+        p{
+            padding: 0px;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    .nota-de-parche{
+        margin-left: 18.75rem;
+        height: 800px;
+    }
+
+}

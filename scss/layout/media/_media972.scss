@@ -1,0 +1,136 @@
+
+@media (max-width:972px){
+
+    .tabla-objetos{
+        ul{
+            gap: 50px;
+            padding-left: 170px;
+            .tabla-descripcion{
+                padding-left: 120px;
+            }
+            .tabla-objetos-armado{
+                padding-left: 130px;
+            }
+            li{
+                div{
+                    h3{
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+    }
+
+    .titanessegadores{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+        div{
+            h4{
+                padding-top: 30px;
+            }
+            h3{
+                padding-top: 25px;
+            }
+            ul{
+                gap: 15px;
+                height: 80px;
+                li{
+                    img{
+                        @include img (3.4375rem,3.4375rem);
+                    }
+                }
+            }
+        }
+    }
+    .imagen-s{
+        height: 60px;
+        width: 40px;
+        
+    }
+    .maton-tirotruco{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+        div{
+            h4{
+                padding-top: 30px;
+            }
+            h3{
+                padding-top: 25px;
+            }
+            ul{
+                gap: 15px;
+                height: 70px;
+                li{
+                    img{
+                        @include img (2.8125rem,2.8125rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .tinta-sombria{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+        div{
+            h4{
+                padding-top: 30px;
+            }
+            h3{
+                padding-top: 27px;
+            }
+            ul{
+                gap: 15px;
+                height: 70px;
+                li{
+                    img{
+                        @include img (3rem,3rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .roll-eruditos{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+        div{
+            ul{
+                gap: 15px;
+                height: 70px;
+                li{
+                    img{
+                        @include img (3rem,3rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .dumplings-mortales{
+        font-size: 18px;
+        gap: 13px;
+        padding-left: 10px;
+        padding-top: 70px;
+        div{
+            ul{
+                gap: 15px;
+                height: 70px;
+                li{
+                    img{
+                        @include img (3.125rem, 3.125rem);
+                    }
+                }
+            }
+        }
+    }
+
+}

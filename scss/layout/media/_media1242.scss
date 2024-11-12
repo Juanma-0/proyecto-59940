@@ -1,0 +1,104 @@
+
+
+@media (max-width:1242px){
+
+    .titanessegadores{
+        div{
+            ul{
+                gap: 20px;
+                height: 100px;
+                li{
+                    img{
+                        @include img (4.375rem,4.375rem);
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .maton-tirotruco{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+        div{
+            ul{
+                gap: 20px;
+                height: 85px;
+                li{
+                    img{
+                        @include img (3.75rem, 3.75rem);
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .tinta-sombria{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+        div{
+            h4{
+                padding-top: 33px
+            }
+            ul{
+                gap: 20px;
+                height: 85px;
+                li{
+                    img{
+                        @include img (4.375rem,4.375rem);
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .roll-eruditos{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+        div{
+            h4{
+                padding-top: 35px;
+            }
+            ul{
+                gap: 20px;
+                height: 85px;
+                li{
+                    img{
+                        @include img (4.0625rem,4.0625rem);
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .dumplings-mortales{
+        font-size: 20px;
+        gap: 15px;
+        padding-left: 20px;
+        div{
+            ul{
+                gap: 20px;
+                height: 85px;
+                li{
+                    img{
+                        @include img (4.375rem,4.375rem);
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

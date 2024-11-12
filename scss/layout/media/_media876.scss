@@ -1,0 +1,31 @@
+
+@media (max-width:876px){
+
+    .nota-de-parche{
+        margin-left: 180px;
+        height: 820px;
+        div{
+            h3{
+                font-size: 45px;
+            }
+            dl{
+                font-size: 18px;
+            }
+        }
+        p{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .tabla-objetos{
+        ul{
+            .tabla-descripcion{
+                padding-left: 80px;
+            }
+            .tabla-objetos-armado{
+                padding-left: 100px;
+            }
+        }
+    }
+}
