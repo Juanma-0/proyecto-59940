@@ -566,6 +566,31 @@ main .seccionNotaParche ul li {
   border-style: ridge;
 }
 
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.8s linear both;
+  animation: scale-up-center 0.8s linear both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 @media (max-width: 1440px) {
   main .seccionNotaParche {
     margin-left: 170px;
