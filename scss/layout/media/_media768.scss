@@ -1,0 +1,47 @@
+
+
+@media (max-width:768px){
+    header{
+        nav{
+            ul{
+                li{
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    main{
+        .seccionNotaParche{
+            margin-left: 100px;
+            div{
+                h2{
+                    margin-top: 20px;
+                    font-size: 30px;
+                }
+            }
+            p{
+                padding-top: 30px;
+            }
+        }
+    }
+
+    .tabla-objetos{
+        ul{
+            .tabla-descripcion{
+                padding-left: 40px;
+            }
+        }
+    }
+
+    .baculo-del-arcangel{
+        div{
+            ul{
+                .desc-baculo{
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+
+}

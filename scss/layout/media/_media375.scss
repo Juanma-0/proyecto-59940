@@ -1,0 +1,72 @@
+
+
+@media (max-width:375px){
+
+    footer{
+        h6{
+            display: flex;
+            font-size: 10px;
+            margin-top: 150px;
+            margin-left: 00px;
+        }
+        p{
+            margin-left: 00px;
+            margin-top: 125px;
+            font-family: "Zain", sans-serif;
+            font-size: 10px;
+            font-weight: 500;
+            font-style: normal;
+        }
+    }
+
+    header{
+        div{
+            h2{
+                font-size: 30px;
+            }
+        }
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        .seccionTituloBienvenida{
+            height: 250px;
+            h1{
+                font-size: 25px;
+            }
+        }
+        .seccionNotaParche{
+            margin-left: 40px;
+            padding-top: 30px;
+            padding-bottom: 0px;
+            p{
+                padding-top: 0px;
+                font-size: 12px;
+            }
+            ul{
+                li{
+                    font-size: 12px;
+                }
+            }
+            div{
+                h2{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    text-align: center;
+                }
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+}

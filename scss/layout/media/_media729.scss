@@ -1,0 +1,210 @@
+
+
+@media (max-width:729px){
+
+    main{
+        .seccionNotaParche{
+            height: 450px;
+        }
+    }
+
+    .imagen-s{
+        @include img (2.5rem,1.875rem);
+        padding-top: 13px;
+    }
+
+    .titanessegadores{
+        font-size: 10px;
+        gap: 5px;
+        padding-left: 5px;
+        padding-top: 50px;
+        div{
+            h4{
+                padding-top: 20px;
+            }
+            h3{
+                padding-top: 18px;
+            }
+            ul{
+                gap: 5px;
+                height: 50px;
+                li{
+                    img{
+                        @include img (1.875rem, 1.875rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .tabla{
+        ul{
+            gap: 3.125rem;
+            li{
+                .gridPosicionamiento{
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+
+    .aatrox{
+        ul{
+            .posiAtrox{
+                padding-left: 40px;
+            }
+        }
+    }
+
+    .ahri{
+        ul{
+            .posiAhri{
+                padding-left: 65px;
+            }
+        }
+    }
+
+    .alune{
+        ul{
+            li{
+                .posiAlune{
+                    padding-left: 50px;
+                }
+            }
+        }
+    }
+
+    .amumu{
+        ul{
+            li{
+                .posiAmumu{
+                    padding-left: 55px;
+                }
+            }
+        }
+    }
+
+
+    .nota-de-parche{
+        width: 80%;
+        margin-left: 80px;
+        height: 750px;
+        div{
+            h3{
+                margin-bottom: 20px;
+                font-size: 40px;
+            }
+            dl{
+                font-size: 17px;
+            }
+        }
+        p{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .tabla-objetos{
+        ul{
+            gap: 40px;
+            padding-left: 70px;
+            padding-bottom: 0px;
+            li{
+                div{
+                    h3{
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .tabla-descripcion{
+        padding-left: 0px;
+    }
+
+    .tabla-objetos-armado{
+        margin-left: 60px;
+    }
+
+    .armadura-petrea{
+        ul{
+            padding-left: 5px;
+            gap: 10px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 15px;
+                    padding-top: 0px;
+                }
+                img{
+                    @include img (2.5rem,2.5rem);
+                }
+            }
+        }
+    }
+
+    .baculo-del-arcangel{
+        ul{
+            padding-left: 5px;
+            gap: 10px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 15px;
+                    padding-top: 0px;
+                }
+                img{
+                    @include img( 2.5rem,2.5rem);
+                }
+            }
+            .desc-baculo{
+                padding-left: 10px;
+            }
+        
+            .armado-baculo{
+                padding-left: 0px;
+            }
+        }
+    }
+
+    .capa-fuego-solar{
+        ul{
+            padding-left: 5px;
+            gap: 10px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 15px;
+                    padding-top: 0px;
+                }
+                img{
+                    @include img (2.5rem,2.5rem);
+                }
+            }
+        }
+    }
+
+    .chispa-ionica{
+        ul{
+            padding-left: 5px;
+            gap: 10px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 15px;
+                    padding-top: 0px;
+                }
+                img{
+                    @include img (2.5rem,2.5rem);
+                }   
+                }
+                .desc-chispa{
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+
+

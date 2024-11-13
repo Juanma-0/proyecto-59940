@@ -1,0 +1,58 @@
+
+
+@media (max-width:368px){
+
+    .tabla{
+        ul{
+            gap: 10px;
+        }
+    }
+
+    .aatrox{
+        ul{
+            gap: 10px;
+        }
+    }
+
+    .ahri{
+        ul{
+            gap: 10px;
+        }
+    }
+
+    .alune{
+        ul{
+            gap: 10px;
+            li{
+                .posiAlune{
+                    padding-left: 45px;
+                }
+            }
+        }
+    }
+
+    .amumu{
+        ul{
+            gap: 10px;
+        }
+    }
+
+    .tabla-objetos{
+        ul{
+            gap: 10px;
+            .tabla-descripcion{
+                margin-left: 10px;
+            }
+            .tabla-objetos-armado{
+                margin-left: 0px;
+            }
+        }
+    }
+
+    main{
+        .nota-de-parche{
+            height: 900px;
+        }
+    }
+
+}

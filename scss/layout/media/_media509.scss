@@ -1,0 +1,166 @@
+
+
+@media (max-width:509px){
+
+    main{
+        .seccionTituloBienvenida{
+            height: 300px;
+            h1{
+                font-size: 30px;
+            }
+        }
+        .seccionNotaParche{
+            margin-left: 50px;
+            height: 400px;
+        }
+    }
+
+    .imagen-s{
+        height: 30px;
+        width: 20px;
+        padding-top: 15px;
+    }
+
+    .titanessegadores{
+        font-size: 7px;
+        gap: 5px;
+        padding-left: 1px;
+        padding-top: 30px;
+        div{
+            h4{
+                padding-top: 18px;
+            }
+            h3{
+                padding-top: 17px;
+            }
+            ul{
+                gap: 5px;
+                height: 40px;
+                li{
+                    img{
+                        @include img (1.25rem,1.25rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .tabla{
+        ul{
+            gap: 20px;
+            padding-left: 60px;
+            li{
+                div{
+                    h3{
+                        font-size: 15px;
+                    }
+                }
+                .gridSinergia{
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+
+    .aatrox{
+        ul{
+            gap: 10px;
+            li{
+                div{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .ahri{
+        ul{
+            gap: 10px;
+            .sinergiaAhri{
+                padding-left: 20px;
+            }
+            li{
+                div{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .alune{
+        ul{
+            gap: 10px;
+            li{
+                .sinergiaAlune{
+                    padding-left: 1.25rem;
+                }
+                div{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .amumu{
+        ul{
+            gap: 10px;
+            li{
+                .sinergiaAmumu{
+                    padding-left: 1.25rem;
+                }
+                div{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .tabla-objetos{
+        ul{
+            gap: 12px;
+            padding-left: 50px;
+            padding-bottom: 0px;
+            .tabla-objetos-armado{
+                padding-left: 5px;
+            }
+            li{
+                div{
+                    h3{
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+
+    main{
+        .nota-de-parche{
+        width: 80%;
+        margin-left: 45px;
+        height: 800px;
+        div{
+            h3{
+                font-size: 35px;
+            }
+            dl{
+                font-size: 15px;
+            }
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+}

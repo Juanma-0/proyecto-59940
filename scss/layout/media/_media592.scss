@@ -1,0 +1,107 @@
+
+
+@media (max-width:592px){
+    
+    main{
+        .seccionNotaParche{
+            margin-left: 5rem;
+        }
+    }
+
+    .tabla{
+        ul{
+            gap: 25px;
+            padding-left: 80px;
+            li{
+                .gridSinergia{
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+
+    .aatrox{
+        ul{
+            padding-left: 20px;
+            gap: 20px;
+            li{
+                .imgAtrox{
+                    padding-top: 20px;
+                    img{
+                    @include img(2.5rem,2.5rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .ahri{
+        ul{
+            padding-left: 20px;
+            gap: 20px;
+            .imgAhri{
+                div{
+                    padding-top: 20px;
+                    img{
+                        @include img(2.5rem,2.5rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .alune{
+        ul{
+            padding-left: 20px;
+            gap: 20px;
+            li{
+                .imgAlune{
+                    padding-top: 20px;
+                    img{
+                        @include img(2.5rem,2.5rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .amumu{
+        ul{
+            padding-left: 20px;
+            gap: 20px;
+            li{
+                .imgAmumu{
+                    padding-top: 20px;
+                    img{
+                        @include img(2.5rem,2.5rem);
+                    }
+                }
+            }
+        }
+    }
+
+    .tabla-objetos{
+        ul{
+            padding-left: 50px;
+            gap: 1.875rem;
+            .tabla-descripcion{
+                padding-left: 0px;
+                margin-left: 50px;
+            }
+            .tabla-objetos-armado{
+                margin-left: 40px;
+            }
+        }
+    }
+
+    main{
+    .nota-de-parche{
+        width: 85%;
+        margin-left: 40px;
+        height: 850px;
+        
+    }
+}
+
+}
+

@@ -1,0 +1,82 @@
+
+
+@media (max-width:407px){
+
+    .tabla-objetos{
+        ul{
+            gap: 10px;
+            padding-left: 50px;
+            padding-bottom: 0px;
+            .tabla-objetos-armado{
+                padding-left: 5px;
+            }
+            .tabla-descripcion{
+                padding-left: 0px;
+            }
+            li{
+                div{
+                    h3{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .armadura-petrea{
+        ul{
+            padding-left: 1px;
+            gap: 5px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 12px;
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+
+    .baculo-del-arcangel{
+        ul{
+            padding-left: 1px;
+            gap: 5px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 12px;
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+
+    .capa-fuego-solar{
+        ul{
+            padding-left: 1px;
+            gap: 5px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 12px;
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+
+    .chispa-ionica{
+        ul{
+            padding-left: 1px;
+            gap: 5px;
+            padding-bottom: 0px;
+            li{
+                p{
+                    font-size: 12px;
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+
+}

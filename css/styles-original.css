@@ -1808,7 +1808,7 @@ main {
     }
 }
 
-/*Hasta acá*/
+
 
 @media (max-width:768px){
     header nav ul li {
@@ -2283,7 +2283,7 @@ main {
 }
 
 
-@media (max-width:530px){
+@media (max-width:509px){
     .nota-de-parche{
         width: 80%;
         margin-left: 60px;

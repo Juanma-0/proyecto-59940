@@ -198,6 +198,7 @@ main .seccionNotaParche ul li {
   font-weight: 700;
   font-style: normal;
   font-size: 1.25rem;
+  text-align: center;
   width: 100%;
 }
 
@@ -1327,6 +1328,666 @@ main .seccionNotaParche ul li {
   }
   .tabla-objetos ul .tabla-objetos-armado {
     padding-left: 60px;
+  }
+  main .nota-de-parche {
+    height: 850px;
+    width: 70%;
+    margin-left: 100px;
+  }
+  main .nota-de-parche div h3 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  header nav ul li {
+    margin: 10px;
+  }
+  main .seccionNotaParche {
+    margin-left: 100px;
+  }
+  main .seccionNotaParche div h2 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  main .seccionNotaParche p {
+    padding-top: 30px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 40px;
+  }
+  .baculo-del-arcangel div ul .desc-baculo {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 729px) {
+  main .seccionNotaParche {
+    height: 450px;
+  }
+  .imagen-s {
+    height: 2.5rem;
+    width: 1.875rem;
+    padding-top: 13px;
+  }
+  .titanessegadores, .maton-tirotruco, .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 10px;
+    gap: 5px;
+    padding-left: 5px;
+    padding-top: 50px;
+  }
+  .titanessegadores div h4, .maton-tirotruco div h4, .tinta-sombria div h4, .roll-eruditos div h4, .dumplings-mortales div h4 {
+    padding-top: 20px;
+  }
+  .titanessegadores div h3, .maton-tirotruco div h3, .tinta-sombria div h3, .roll-eruditos div h3, .dumplings-mortales div h3 {
+    padding-top: 18px;
+  }
+  .titanessegadores div ul, .maton-tirotruco div ul, .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 5px;
+    height: 50px;
+  }
+  .titanessegadores div ul li img, .maton-tirotruco div ul li img, .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  .tabla ul {
+    gap: 3.125rem;
+  }
+  .tabla ul li .gridPosicionamiento {
+    padding-left: 0px;
+  }
+  .aatrox ul .posiAtrox {
+    padding-left: 40px;
+  }
+  .ahri ul .posiAhri {
+    padding-left: 65px;
+  }
+  .alune ul li .posiAlune {
+    padding-left: 50px;
+  }
+  .amumu ul li .posiAmumu {
+    padding-left: 55px;
+  }
+  .nota-de-parche {
+    width: 80%;
+    margin-left: 80px;
+    height: 750px;
+  }
+  .nota-de-parche div h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  .nota-de-parche div dl {
+    font-size: 17px;
+  }
+  .nota-de-parche p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .tabla-objetos ul {
+    gap: 40px;
+    padding-left: 70px;
+    padding-bottom: 0px;
+  }
+  .tabla-objetos ul li div h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .tabla-descripcion {
+    padding-left: 0px;
+  }
+  .tabla-objetos-armado {
+    margin-left: 60px;
+  }
+  .armadura-petrea ul {
+    padding-left: 5px;
+    gap: 10px;
+    padding-bottom: 0px;
+  }
+  .armadura-petrea ul li p {
+    font-size: 15px;
+    padding-top: 0px;
+  }
+  .armadura-petrea ul li img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .baculo-del-arcangel ul {
+    padding-left: 5px;
+    gap: 10px;
+    padding-bottom: 0px;
+  }
+  .baculo-del-arcangel ul li p {
+    font-size: 15px;
+    padding-top: 0px;
+  }
+  .baculo-del-arcangel ul li img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .baculo-del-arcangel ul .desc-baculo {
+    padding-left: 10px;
+  }
+  .baculo-del-arcangel ul .armado-baculo {
+    padding-left: 0px;
+  }
+  .capa-fuego-solar ul {
+    padding-left: 5px;
+    gap: 10px;
+    padding-bottom: 0px;
+  }
+  .capa-fuego-solar ul li p {
+    font-size: 15px;
+    padding-top: 0px;
+  }
+  .capa-fuego-solar ul li img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .chispa-ionica ul {
+    padding-left: 5px;
+    gap: 10px;
+    padding-bottom: 0px;
+  }
+  .chispa-ionica ul li p {
+    font-size: 15px;
+    padding-top: 0px;
+  }
+  .chispa-ionica ul li img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .chispa-ionica ul .desc-chispa {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 681px) {
+  header nav ul {
+    flex-direction: row;
+  }
+  header nav ul li a {
+    font-size: 13px;
+  }
+  footer div a {
+    display: flex;
+    gap: 1.25rem;
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+    margin-top: 50px;
+  }
+  footer p {
+    display: flex;
+    font-size: 8px;
+    margin-top: 100px;
+    margin-left: 150px;
+    align-items: center;
+    text-align: center;
+  }
+  footer h6 {
+    font-size: 8px;
+    margin-bottom: 50px;
+  }
+  main .seccionTituloBienvenida {
+    width: 100%;
+    height: 500px;
+  }
+  main .seccionTituloBienvenida h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding-top: 1.875rem;
+  }
+  main .seccionNotaParche {
+    padding-bottom: 0px;
+    margin-left: 70px;
+    height: 350px;
+    margin-left: 100px;
+  }
+  main .seccionNotaParche div h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  main .seccionNotaParche div a {
+    font-size: 15px;
+  }
+  main .seccionNotaParche ul li {
+    font-size: 15px;
+  }
+  main .seccionNotaParche p {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 672px) {
+  .tabla ul {
+    gap: 40px;
+  }
+  .tabla ul li div h3 {
+    font-size: 1.125rem;
+  }
+  .tabla ul li .gridSinergia {
+    padding-left: 40px;
+  }
+  .aatrox ul {
+    gap: 30px;
+  }
+  .ahri ul {
+    gap: 30px;
+  }
+  .alune ul {
+    gap: 30px;
+  }
+  .amumu ul {
+    gap: 30px;
+  }
+}
+@media (max-width: 606px) {
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 592px) {
+  main .seccionNotaParche {
+    margin-left: 5rem;
+  }
+  .tabla ul {
+    gap: 25px;
+    padding-left: 80px;
+  }
+  .tabla ul li .gridSinergia {
+    padding-left: 30px;
+  }
+  .aatrox ul {
+    padding-left: 20px;
+    gap: 20px;
+  }
+  .aatrox ul li .imgAtrox {
+    padding-top: 20px;
+  }
+  .aatrox ul li .imgAtrox img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .ahri ul {
+    padding-left: 20px;
+    gap: 20px;
+  }
+  .ahri ul .imgAhri div {
+    padding-top: 20px;
+  }
+  .ahri ul .imgAhri div img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .alune ul {
+    padding-left: 20px;
+    gap: 20px;
+  }
+  .alune ul li .imgAlune {
+    padding-top: 20px;
+  }
+  .alune ul li .imgAlune img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .amumu ul {
+    padding-left: 20px;
+    gap: 20px;
+  }
+  .amumu ul li .imgAmumu {
+    padding-top: 20px;
+  }
+  .amumu ul li .imgAmumu img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .tabla-objetos ul {
+    padding-left: 50px;
+    gap: 1.875rem;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 0px;
+    margin-left: 50px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    margin-left: 40px;
+  }
+  main .nota-de-parche {
+    width: 85%;
+    margin-left: 40px;
+    height: 850px;
+  }
+}
+@media (max-width: 509px) {
+  main .seccionTituloBienvenida {
+    height: 300px;
+  }
+  main .seccionTituloBienvenida h1 {
+    font-size: 30px;
+  }
+  main .seccionNotaParche {
+    margin-left: 50px;
+    height: 400px;
+  }
+  .imagen-s {
+    height: 30px;
+    width: 20px;
+    padding-top: 15px;
+  }
+  .titanessegadores, .maton-tirotruco, .tinta-sombria, .roll-eruditos, .dumplings-mortales {
+    font-size: 7px;
+    gap: 5px;
+    padding-left: 1px;
+    padding-top: 30px;
+  }
+  .titanessegadores div h4, .maton-tirotruco div h4, .tinta-sombria div h4, .roll-eruditos div h4, .dumplings-mortales div h4 {
+    padding-top: 18px;
+  }
+  .titanessegadores div h3, .maton-tirotruco div h3, .tinta-sombria div h3, .roll-eruditos div h3, .dumplings-mortales div h3 {
+    padding-top: 17px;
+  }
+  .titanessegadores div ul, .maton-tirotruco div ul, .tinta-sombria div ul, .roll-eruditos div ul, .dumplings-mortales div ul {
+    gap: 5px;
+    height: 40px;
+  }
+  .titanessegadores div ul li img, .maton-tirotruco div ul li img, .tinta-sombria div ul li img, .roll-eruditos div ul li img, .dumplings-mortales div ul li img {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
+  .tabla ul {
+    gap: 20px;
+    padding-left: 60px;
+  }
+  .tabla ul li div h3 {
+    font-size: 15px;
+  }
+  .tabla ul li .gridSinergia {
+    padding-left: 0px;
+  }
+  .aatrox ul {
+    gap: 10px;
+  }
+  .aatrox ul li div p {
+    font-size: 13px;
+  }
+  .ahri ul {
+    gap: 10px;
+  }
+  .ahri ul .sinergiaAhri {
+    padding-left: 20px;
+  }
+  .ahri ul li div p {
+    font-size: 13px;
+  }
+  .alune ul {
+    gap: 10px;
+  }
+  .alune ul li .sinergiaAlune {
+    padding-left: 1.25rem;
+  }
+  .alune ul li div p {
+    font-size: 13px;
+  }
+  .amumu ul {
+    gap: 10px;
+  }
+  .amumu ul li .sinergiaAmumu {
+    padding-left: 1.25rem;
+  }
+  .amumu ul li div p {
+    font-size: 13px;
+  }
+  .tabla-objetos ul {
+    gap: 12px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 5px;
+  }
+  .tabla-objetos ul li div h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  main .nota-de-parche {
+    width: 80%;
+    margin-left: 45px;
+    height: 800px;
+  }
+  main .nota-de-parche div h3 {
+    font-size: 35px;
+  }
+  main .nota-de-parche div dl {
+    font-size: 15px;
+  }
+  main .nota-de-parche p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 407px) {
+  .tabla-objetos ul {
+    gap: 10px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    padding-left: 5px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    padding-left: 0px;
+  }
+  .tabla-objetos ul li div h3 {
+    font-size: 15px;
+  }
+  .armadura-petrea ul {
+    padding-left: 1px;
+    gap: 5px;
+    padding-bottom: 0px;
+  }
+  .armadura-petrea ul li p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  .baculo-del-arcangel ul {
+    padding-left: 1px;
+    gap: 5px;
+    padding-bottom: 0px;
+  }
+  .baculo-del-arcangel ul li p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  .capa-fuego-solar ul {
+    padding-left: 1px;
+    gap: 5px;
+    padding-bottom: 0px;
+  }
+  .capa-fuego-solar ul li p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  .chispa-ionica ul {
+    padding-left: 1px;
+    gap: 5px;
+    padding-bottom: 0px;
+  }
+  .chispa-ionica ul li p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 396px) {
+  footer p {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 384px) {
+  .tabla ul {
+    gap: 20px;
+    padding-left: 50px;
+  }
+  .tabla ul li div h3 {
+    font-size: 13px;
+  }
+  .aatrox ul {
+    gap: 15px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .aatrox ul li div p {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  .aatrox ul li .imgAtrox {
+    padding-top: 0px;
+  }
+  .aatrox ul li .imgAtrox img {
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  .ahri ul {
+    gap: 15px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .ahri ul .imgAhri div {
+    padding-top: 0px;
+  }
+  .ahri ul .imgAhri div img {
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  .ahri ul .posiAhri {
+    padding-left: 50px;
+  }
+  .ahri ul li div p {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  .alune ul {
+    gap: 15px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .alune ul li .posiAlune {
+    padding-left: 40px;
+  }
+  .alune ul li .rasgosecunAlune {
+    padding-left: 55px;
+  }
+  .alune ul li .imgAlune {
+    padding-top: 0px;
+  }
+  .alune ul li .imgAlune img {
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  .alune ul li div p {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  .amumu ul {
+    gap: 15px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .amumu ul li .posiAmumu {
+    padding-left: 40px;
+  }
+  .amumu ul li .imgAmumu {
+    padding-top: 0px;
+  }
+  .amumu ul li .imgAmumu img {
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  .amumu ul li div p {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 375px) {
+  footer h6 {
+    display: flex;
+    font-size: 10px;
+    margin-top: 150px;
+    margin-left: 0px;
+  }
+  footer p {
+    margin-left: 0px;
+    margin-top: 125px;
+    font-family: "Zain", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  header div h2 {
+    font-size: 30px;
+  }
+  header nav ul li a {
+    font-size: 10px;
+  }
+  main .seccionTituloBienvenida {
+    height: 250px;
+  }
+  main .seccionTituloBienvenida h1 {
+    font-size: 25px;
+  }
+  main .seccionNotaParche {
+    margin-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  main .seccionNotaParche p {
+    padding-top: 0px;
+    font-size: 12px;
+  }
+  main .seccionNotaParche ul li {
+    font-size: 12px;
+  }
+  main .seccionNotaParche div h2 {
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+  main .seccionNotaParche div a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 368px) {
+  .tabla ul {
+    gap: 10px;
+  }
+  .aatrox ul {
+    gap: 10px;
+  }
+  .ahri ul {
+    gap: 10px;
+  }
+  .alune ul {
+    gap: 10px;
+  }
+  .alune ul li .posiAlune {
+    padding-left: 45px;
+  }
+  .amumu ul {
+    gap: 10px;
+  }
+  .tabla-objetos ul {
+    gap: 10px;
+  }
+  .tabla-objetos ul .tabla-descripcion {
+    margin-left: 10px;
+  }
+  .tabla-objetos ul .tabla-objetos-armado {
+    margin-left: 0px;
+  }
+  main .nota-de-parche {
+    height: 900px;
   }
 }
 
