@@ -86,6 +86,9 @@ header nav ul li {
   border-radius: 1.5625rem;
   background-color: #323050;
 }
+header nav ul li:hover {
+  transform: scale(1.2);
+}
 header nav ul li a {
   font-family: "Zain", sans-serif;
   font-weight: 700;
@@ -174,6 +177,9 @@ main .seccionNotaParche div a {
   font-style: normal;
   font-size: 1.25rem;
   width: 100%;
+}
+main .seccionNotaParche div a:hover {
+  color: #ebbf6e;
 }
 main .seccionNotaParche p {
   display: flex;
@@ -278,6 +284,9 @@ main .seccionNotaParche ul li {
   font-size: 30px;
   padding-top: 1.875rem;
 }
+.aatrox ul li .imgAtrox img:hover {
+  transform: scale(1.2);
+}
 .aatrox ul .rasgosecunAtrox {
   padding-left: 50px;
 }
@@ -293,12 +302,16 @@ main .seccionNotaParche ul li {
   padding-left: 12.5rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
+  background-color: #2A274B;
 }
 .ahri ul li div p {
   font-family: "Zain", sans-serif;
   font-weight: 5px;
   font-size: 30px;
   padding-top: 1.875rem;
+}
+.ahri ul .imgAhri div img:hover {
+  transform: scale(1.2);
 }
 .ahri ul .sinergiaAhri {
   padding-left: 50px;
@@ -325,6 +338,9 @@ main .seccionNotaParche ul li {
   font-size: 30px;
   padding-top: 1.875rem;
 }
+.alune ul li .imgAlune img:hover {
+  transform: scale(1.2);
+}
 .alune ul .sinergiaAlune {
   padding-left: 80px;
 }
@@ -343,12 +359,16 @@ main .seccionNotaParche ul li {
   padding-left: 12.5rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
+  background-color: #2A274B;
 }
 .amumu ul li div p {
   font-family: "Zain", sans-serif;
   font-weight: 5px;
   font-size: 30px;
   padding-top: 1.875rem;
+}
+.amumu ul li .imgAmumu img:hover {
+  transform: scale(1.2);
 }
 .amumu ul .sinergiaAmumu {
   padding-left: 50px;
@@ -395,6 +415,9 @@ main .seccionNotaParche ul li {
   font-family: "Zain", sans-serif;
   font-size: 25px;
 }
+.armadura-petrea ul li img:hover {
+  transform: scale(1.2);
+}
 .armadura-petrea ul .campeon-armadura {
   padding-left: 100px;
 }
@@ -407,6 +430,7 @@ main .seccionNotaParche ul li {
   padding-left: 9.375rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
+  background-color: #2A274B;
 }
 .baculo-del-arcangel ul li {
   text-align: center;
@@ -415,6 +439,9 @@ main .seccionNotaParche ul li {
   padding-top: 20px;
   font-family: "Zain", sans-serif;
   font-size: 25px;
+}
+.baculo-del-arcangel ul li img:hover {
+  transform: scale(1.2);
 }
 .baculo-del-arcangel ul .desc-baculo {
   padding-left: 120px;
@@ -443,6 +470,9 @@ main .seccionNotaParche ul li {
   font-family: "Zain", sans-serif;
   font-size: 25px;
 }
+.capa-fuego-solar ul li img:hover {
+  transform: scale(1.2);
+}
 .capa-fuego-solar ul .armado-capa {
   padding-left: 60px;
 }
@@ -458,6 +488,7 @@ main .seccionNotaParche ul li {
   padding-left: 9.375rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
+  background-color: #2A274B;
 }
 .chispa-ionica ul li {
   text-align: center;
@@ -466,6 +497,9 @@ main .seccionNotaParche ul li {
   padding-top: 20px;
   font-family: "Zain", sans-serif;
   font-size: 25px;
+}
+.chispa-ionica ul li img:hover {
+  transform: scale(1.2);
 }
 .chispa-ionica ul .nombre-chispa {
   padding-left: 25px;
@@ -589,6 +623,35 @@ main .seccionNotaParche ul li {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @media (max-width: 1440px) {
@@ -1981,6 +2044,9 @@ main .seccionNotaParche ul li {
   }
   main .seccionNotaParche div a {
     font-size: 12px;
+  }
+  .dumplings-mortales {
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 368px) {

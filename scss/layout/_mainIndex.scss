@@ -62,6 +62,9 @@ main {
                 font-style: normal;
                 font-size: 1.25rem;
                 width: 100%;
+                &:hover{
+                    color: map-get($color , quinto );
+                }
             }
         }
         p{

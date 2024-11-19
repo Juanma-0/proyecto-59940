@@ -41,6 +41,9 @@ header {
                 border-style: ridge;
                 border-radius: 1.5625rem;
                 background-color: map-get($color , cuarto );
+                &:hover{
+                    transform: scale(1.2);
+                }
                 a{
                     font-family: "Zain", sans-serif;
                     font-weight: 700;
@@ -49,7 +52,7 @@ header {
                     color: map-get($color , terciario );
                     text-decoration: none;
                     &:hover{
-                        color: map-get($color , quinto )
+                        color: map-get($color , quinto );
                     }
                 }
                 }

@@ -27,6 +27,13 @@
                     padding-top: 1.875rem;
                 }
             }
+            .imgAtrox{
+                img{
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+            }
         }
         .rasgosecunAtrox{
             padding-left: 50px;
@@ -39,6 +46,7 @@
 
 .ahri ul{
     @include flex2 (row, 12.5rem, 12.5rem, 3.125rem, 3.125rem);
+    background-color: map-get($color, primario );
     li{
         div{
             p{
@@ -46,6 +54,15 @@
                 font-weight: 5px;
                 font-size: 30px;
                 padding-top: 1.875rem;
+            }
+        }
+    }
+    .imgAhri{
+        div{
+            img{
+                &:hover{
+                    transform: scale(1.2);
+                }
             }
         }
     }
@@ -73,6 +90,13 @@
                 padding-top: 1.875rem;
             }
         }
+        .imgAlune{
+            img{
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
     }
     .sinergiaAlune{
         padding-left: 80px;
@@ -89,6 +113,7 @@
 
 .amumu ul{
     @include flex2 (row, 11.875rem, 12.5rem, 3.125rem, 3.125rem);
+    background-color: map-get($color, primario );
     li{
         div{
             p{
@@ -96,6 +121,13 @@
                 font-weight: 5px;
                 font-size: 30px;
                 padding-top: 1.875rem;
+            }
+        }
+        .imgAmumu{
+            img{
+                &:hover{
+                    transform: scale(1.2);
+                }
             }
         }
     }
