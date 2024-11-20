@@ -1,4 +1,4 @@
-Primer proyecto terminado hecho en HTML y scss
+Primer proyecto terminado hecho en HTML y SCSS
 
 
 Detalles a tener en cuenta: Hover en el navbar / también en la página de inicio en la seccion de "notas del último parche" tiene un hover y link en el texto "Leer más"
