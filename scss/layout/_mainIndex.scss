@@ -25,6 +25,7 @@ main {
             font-family: "Zain", sans-serif;
             font-weight: 700;
             font-style: normal;
+            text-shadow: 3px 3px black;
         }
     }
     .seccionNotaParche{
@@ -52,10 +53,12 @@ main {
                 background-size:auto;
                 border-color: map-get($color, primario );
                 border-radius: 1.5625rem;
+                text-shadow: 3px 3px black;
             }
             a{
                 @include flex(column,wrap,center,center);
                 color: map-get($color, terciario );
+                text-shadow: 1px 1px black;
                 text-decoration: none;
                 font-family: "Zain", sans-serif;
                 font-weight: 700;

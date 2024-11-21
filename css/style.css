@@ -129,6 +129,7 @@ main .seccionTituloBienvenida h1 {
   font-family: "Zain", sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-shadow: 3px 3px black;
 }
 main .seccionNotaParche {
   display: flex;
@@ -163,6 +164,7 @@ main .seccionNotaParche div h2 {
   background-size: auto;
   border-color: #2A274B;
   border-radius: 1.5625rem;
+  text-shadow: 3px 3px black;
 }
 main .seccionNotaParche div a {
   display: flex;
@@ -171,6 +173,7 @@ main .seccionNotaParche div a {
   justify-content: center;
   align-items: center;
   color: white;
+  text-shadow: 1px 1px black;
   text-decoration: none;
   font-family: "Zain", sans-serif;
   font-weight: 700;
@@ -218,6 +221,7 @@ main .seccionNotaParche ul li {
   font-family: "Zain", sans-serif;
   font-weight: 10;
   font-size: 30px;
+  text-shadow: 3px 3px black;
   text-align: center;
   font-style: normal;
   display: flex;
@@ -264,6 +268,7 @@ main .seccionNotaParche ul li {
   padding-bottom: 0rem;
 }
 .tabla ul li div h3 {
+  text-shadow: 5px 5px black;
   font-family: "Zain", sans-serif;
   font-weight: 20px;
   font-size: 30px;
@@ -279,6 +284,7 @@ main .seccionNotaParche ul li {
   padding-bottom: 3.125rem;
 }
 .aatrox ul li div p {
+  text-shadow: 2px 2px black;
   font-family: "Zain", sans-serif;
   font-weight: 5px;
   font-size: 30px;
@@ -305,6 +311,7 @@ main .seccionNotaParche ul li {
   background-color: #2A274B;
 }
 .ahri ul li div p {
+  text-shadow: 2px 2px black;
   font-family: "Zain", sans-serif;
   font-weight: 5px;
   font-size: 30px;
@@ -333,6 +340,7 @@ main .seccionNotaParche ul li {
   padding-bottom: 3.125rem;
 }
 .alune ul li div p {
+  text-shadow: 2px 2px black;
   font-family: "Zain", sans-serif;
   font-weight: 5px;
   font-size: 30px;
@@ -362,6 +370,7 @@ main .seccionNotaParche ul li {
   background-color: #2A274B;
 }
 .amumu ul li div p {
+  text-shadow: 2px 2px black;
   font-family: "Zain", sans-serif;
   font-weight: 5px;
   font-size: 30px;
@@ -384,12 +393,13 @@ main .seccionNotaParche ul li {
   display: flex;
   list-style: none;
   flex-direction: row;
-  gap: 21.875rem;
+  gap: 18rem;
   padding-left: 25rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
 }
 .tabla-objetos ul li div h3 {
+  text-shadow: 5px 5px black;
   font-family: "Zain", sans-serif;
   font-weight: 20px;
   font-size: 30px;
@@ -402,7 +412,7 @@ main .seccionNotaParche ul li {
   display: flex;
   list-style: none;
   flex-direction: row;
-  gap: 6.25rem;
+  gap: 5rem;
   padding-left: 9.375rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
@@ -411,6 +421,7 @@ main .seccionNotaParche ul li {
   text-align: center;
 }
 .armadura-petrea ul li p {
+  text-shadow: 2px 2px black;
   padding-top: 20px;
   font-family: "Zain", sans-serif;
   font-size: 25px;
@@ -419,14 +430,14 @@ main .seccionNotaParche ul li {
   transform: scale(1.2);
 }
 .armadura-petrea ul .campeon-armadura {
-  padding-left: 100px;
+  padding-left: 0px;
 }
 
 .baculo-del-arcangel ul {
   display: flex;
   list-style: none;
   flex-direction: row;
-  gap: 6.25rem;
+  gap: 5rem;
   padding-left: 9.375rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
@@ -436,6 +447,7 @@ main .seccionNotaParche ul li {
   text-align: center;
 }
 .baculo-del-arcangel ul li p {
+  text-shadow: 2px 2px black;
   padding-top: 20px;
   font-family: "Zain", sans-serif;
   font-size: 25px;
@@ -449,15 +461,12 @@ main .seccionNotaParche ul li {
 .baculo-del-arcangel ul .armado-baculo {
   padding-left: 75px;
 }
-.baculo-del-arcangel ul .campeon-baculo {
-  padding-left: 100px;
-}
 
 .capa-fuego-solar ul {
   display: flex;
   list-style: none;
   flex-direction: row;
-  gap: 6.25rem;
+  gap: 5rem;
   padding-left: 9.375rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
@@ -466,6 +475,7 @@ main .seccionNotaParche ul li {
   text-align: center;
 }
 .capa-fuego-solar ul li p {
+  text-shadow: 2px 2px black;
   padding-top: 20px;
   font-family: "Zain", sans-serif;
   font-size: 25px;
@@ -477,14 +487,14 @@ main .seccionNotaParche ul li {
   padding-left: 60px;
 }
 .capa-fuego-solar ul .campeon-capa {
-  padding-left: 130px;
+  padding-left: 30px;
 }
 
 .chispa-ionica ul {
   display: flex;
   list-style: none;
   flex-direction: row;
-  gap: 6.25rem;
+  gap: 5rem;
   padding-left: 9.375rem;
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
@@ -494,6 +504,7 @@ main .seccionNotaParche ul li {
   text-align: center;
 }
 .chispa-ionica ul li p {
+  text-shadow: 2px 2px black;
   padding-top: 20px;
   font-family: "Zain", sans-serif;
   font-size: 25px;
@@ -508,7 +519,7 @@ main .seccionNotaParche ul li {
   padding-left: 35px;
 }
 .chispa-ionica ul .campeon-chispa {
-  padding-left: 50px;
+  padding-left: 0px;
 }
 
 .nota-de-parche {
@@ -539,6 +550,7 @@ main .seccionNotaParche ul li {
   font-weight: 700;
   font-style: normal;
   font-size: 50px;
+  text-shadow: 3px 3px black;
   width: 100%;
   margin-bottom: 40px;
   background-color: #2A274B;
@@ -573,6 +585,9 @@ main .seccionNotaParche ul li {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
+}
+.nota-de-parche div dl dt {
+  text-shadow: 1px 1px black;
 }
 
 .botonInicio {
@@ -1403,6 +1418,9 @@ main .seccionNotaParche ul li {
   .tabla-objetos ul .tabla-objetos-armado {
     padding-left: 100px;
   }
+  main .seccionNotaParche {
+    height: 26.5625rem;
+  }
 }
 @media (max-width: 809px) {
   main .seccionNotaParche p {
@@ -1573,7 +1591,7 @@ main .seccionNotaParche ul li {
   .chispa-ionica ul {
     padding-left: 5px;
     gap: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 180px;
   }
   .chispa-ionica ul li p {
     font-size: 15px;
@@ -1585,6 +1603,9 @@ main .seccionNotaParche ul li {
   }
   .chispa-ionica ul .desc-chispa {
     padding-left: 0px;
+  }
+  .mainCompos {
+    height: 650px;
   }
 }
 @media (max-width: 681px) {
@@ -1643,6 +1664,9 @@ main .seccionNotaParche ul li {
   main .seccionNotaParche p {
     padding-top: 10px;
     font-size: 15px;
+  }
+  .chispa-ionica ul {
+    padding-bottom: 200px;
   }
 }
 @media (max-width: 672px) {
@@ -1851,8 +1875,11 @@ main .seccionNotaParche ul li {
     font-size: 18px;
     margin-bottom: 5px;
   }
+  .mainCompos {
+    height: 500px;
+  }
 }
-@media (max-width: 407px) {
+@media (max-width: 416px) {
   .tabla-objetos ul {
     gap: 10px;
     padding-left: 50px;
@@ -1897,7 +1924,7 @@ main .seccionNotaParche ul li {
   .chispa-ionica ul {
     padding-left: 1px;
     gap: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 120px;
   }
   .chispa-ionica ul li p {
     font-size: 12px;

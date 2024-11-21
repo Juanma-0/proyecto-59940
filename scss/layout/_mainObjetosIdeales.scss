@@ -1,10 +1,11 @@
 
 
 .tabla-objetos ul{
-    @include flex2(row, 21.875rem, 25rem,3.125rem, 3.125rem);
+    @include flex2(row, 18rem, 25rem,3.125rem, 3.125rem);
     li{
         div{
             h3{
+                text-shadow: 5px 5px black;
                 font-family: "Zain", sans-serif;
                 font-weight: 20px;
                 font-size: 30px;
@@ -17,10 +18,11 @@
 }
 
 .armadura-petrea ul{
-    @include flex2(row, 6.25rem, 9.375rem,3.125rem, 3.125rem);
+    @include flex2(row, 5rem, 9.375rem,3.125rem, 3.125rem);
     li{
         text-align: center;
         p{
+            text-shadow: 2px 2px black;
             padding-top: 20px;
             font-family: "Zain", sans-serif;
             font-size: 25px;
@@ -32,17 +34,18 @@
         }
     }
     .campeon-armadura{
-        padding-left: 100px;
+        padding-left: 0px;
     }
 
 }
 
 .baculo-del-arcangel ul{
-    @include flex2(row, 6.25rem, 9.375rem,3.125rem, 3.125rem);
+    @include flex2(row, 5rem, 9.375rem,3.125rem, 3.125rem);
     background-color: map-get($color, primario );
     li{
         text-align: center;
         p{
+            text-shadow: 2px 2px black;
             padding-top: 20px;
             font-family: "Zain", sans-serif;
             font-size: 25px;
@@ -61,16 +64,14 @@
         padding-left: 75px;
     }
     
-    .campeon-baculo{
-        padding-left: 100px;
-    }
 }
 
 .capa-fuego-solar ul{
-    @include flex2(row, 6.25rem, 9.375rem,3.125rem, 3.125rem);
+    @include flex2(row, 5rem, 9.375rem,3.125rem, 3.125rem);
     li{
         text-align: center;
         p{
+            text-shadow: 2px 2px black;
             padding-top: 20px;
             font-family: "Zain", sans-serif;
             font-size: 25px;
@@ -86,16 +87,17 @@
     }
     
     .campeon-capa{
-        padding-left: 130px;
+        padding-left: 30px;
     }
 }
 
 .chispa-ionica ul{
-    @include flex2(row, 6.25rem, 9.375rem,3.125rem, 3.125rem);
+    @include flex2(row, 5rem, 9.375rem,3.125rem, 3.125rem);
     background-color: map-get($color, primario );
     li{
         text-align: center;
         p{
+            text-shadow: 2px 2px black;
             padding-top: 20px;
             font-family: "Zain", sans-serif;
             font-size: 25px;
@@ -115,6 +117,6 @@
     }
     
     .campeon-chispa{
-        padding-left: 50px;
+        padding-left: 0px;
     }
 }
